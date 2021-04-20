@@ -1,0 +1,2262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\nicol\OneDrive\Documents\PCB\AnalogDrum_Modules\AnalogDrum_Snare\AnalogDrum_Snare.sch</source>
+    <date>20/04/2021 15:35:21</date>
+    <tool>Eeschema (5.1.5)-3</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>AnalogDrum_Snare.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Noise/" tstamps="/6069162D/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>White_Noise.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/VCF/" tstamps="/606921C9/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>VCF.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/VCA/" tstamps="/60692334/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Mono_VCA.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/VCO/" tstamps="/6069248B/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>VCO.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/EG/" tstamps="/60692627/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Envelop_Generator.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/XFD/" tstamps="/60696DB5/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Crossfader.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C101">
+      <value>100p</value>
+      <footprint>Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60697613</tstamp>
+    </comp>
+    <comp ref="J101">
+      <value>Conn_01x05_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x05_Male" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6069DBE3</tstamp>
+    </comp>
+    <comp ref="H101">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6070D56C</tstamp>
+    </comp>
+    <comp ref="H102">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6070DE3D</tstamp>
+    </comp>
+    <comp ref="H103">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6070DEDE</tstamp>
+    </comp>
+    <comp ref="H104">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6070E073</tstamp>
+    </comp>
+    <comp ref="C203">
+      <value>1µ</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Noise/" tstamps="/6069162D/"/>
+      <tstamp>606EF9BD</tstamp>
+    </comp>
+    <comp ref="Q201">
+      <value>2N3904</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2N3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"/>
+      <sheetpath names="/Noise/" tstamps="/6069162D/"/>
+      <tstamp>606EFDEA</tstamp>
+    </comp>
+    <comp ref="Q202">
+      <value>2N3904</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2N3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"/>
+      <sheetpath names="/Noise/" tstamps="/6069162D/"/>
+      <tstamp>606F0780</tstamp>
+    </comp>
+    <comp ref="R204">
+      <value>47k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Noise/" tstamps="/6069162D/"/>
+      <tstamp>606F0E93</tstamp>
+    </comp>
+    <comp ref="CP201">
+      <value>47µ</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/Noise/" tstamps="/6069162D/"/>
+      <tstamp>606F1A10</tstamp>
+    </comp>
+    <comp ref="R206">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Noise/" tstamps="/6069162D/"/>
+      <tstamp>606F2A85</tstamp>
+    </comp>
+    <comp ref="R205">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Noise/" tstamps="/6069162D/"/>
+      <tstamp>606F3D25</tstamp>
+    </comp>
+    <comp ref="R202">
+      <value>4.7k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Noise/" tstamps="/6069162D/"/>
+      <tstamp>606F15DD</tstamp>
+    </comp>
+    <comp ref="R203">
+      <value>100</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Noise/" tstamps="/6069162D/"/>
+      <tstamp>60732C90</tstamp>
+    </comp>
+    <comp ref="U201">
+      <value>NE5532</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/ne5532.pdf</datasheet>
+      <libsource lib="Amplifier_Operational" part="NE5532" description="Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"/>
+      <sheetpath names="/Noise/" tstamps="/6069162D/"/>
+      <tstamp>60651ECE</tstamp>
+    </comp>
+    <comp ref="R201">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Noise/" tstamps="/6069162D/"/>
+      <tstamp>606801B5</tstamp>
+    </comp>
+    <comp ref="C201">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Noise/" tstamps="/6069162D/"/>
+      <tstamp>6068096C</tstamp>
+    </comp>
+    <comp ref="C202">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Noise/" tstamps="/6069162D/"/>
+      <tstamp>60680E78</tstamp>
+    </comp>
+    <comp ref="U302">
+      <value>NE5532</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/ne5532.pdf</datasheet>
+      <libsource lib="Amplifier_Operational" part="NE5532" description="Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"/>
+      <sheetpath names="/VCF/" tstamps="/606921C9/"/>
+      <tstamp>607D81BA</tstamp>
+    </comp>
+    <comp ref="U301">
+      <value>NE5532</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/ne5532.pdf</datasheet>
+      <libsource lib="Amplifier_Operational" part="NE5532" description="Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"/>
+      <sheetpath names="/VCF/" tstamps="/606921C9/"/>
+      <tstamp>607D89F2</tstamp>
+    </comp>
+    <comp ref="R303">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/VCF/" tstamps="/606921C9/"/>
+      <tstamp>607DE2BF</tstamp>
+    </comp>
+    <comp ref="R302">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/VCF/" tstamps="/606921C9/"/>
+      <tstamp>607DEB16</tstamp>
+    </comp>
+    <comp ref="C305">
+      <value>33n</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/VCF/" tstamps="/606921C9/"/>
+      <tstamp>60611FC5</tstamp>
+    </comp>
+    <comp ref="LDR302">
+      <value>100..1M</value>
+      <footprint>OptoDevice:R_LDR_5.2x5.2mm_P3.5mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_PHOTO" description="Photoresistor"/>
+      <sheetpath names="/VCF/" tstamps="/606921C9/"/>
+      <tstamp>6061379E</tstamp>
+    </comp>
+    <comp ref="C306">
+      <value>33n</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/VCF/" tstamps="/606921C9/"/>
+      <tstamp>606137A4</tstamp>
+    </comp>
+    <comp ref="RV303">
+      <value>100k</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/VCF/" tstamps="/606921C9/"/>
+      <tstamp>6061E0F1</tstamp>
+    </comp>
+    <comp ref="R309">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/VCF/" tstamps="/606921C9/"/>
+      <tstamp>60621517</tstamp>
+    </comp>
+    <comp ref="R310">
+      <value>2.2k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/VCF/" tstamps="/606921C9/"/>
+      <tstamp>60623147</tstamp>
+    </comp>
+    <comp ref="D303">
+      <value>LED_BLUE</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/VCF/" tstamps="/606921C9/"/>
+      <tstamp>60634512</tstamp>
+    </comp>
+    <comp ref="D304">
+      <value>LED_BLUE</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/VCF/" tstamps="/606921C9/"/>
+      <tstamp>60634F6F</tstamp>
+    </comp>
+    <comp ref="R304">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/VCF/" tstamps="/606921C9/"/>
+      <tstamp>6063CE90</tstamp>
+    </comp>
+    <comp ref="R305">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/VCF/" tstamps="/606921C9/"/>
+      <tstamp>6063D9EA</tstamp>
+    </comp>
+    <comp ref="D302">
+      <value>LED_W</value>
+      <footprint>LED_THT:LED_D5.0mm_Horizontal_O1.27mm_Z9.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/VCF/" tstamps="/606921C9/"/>
+      <tstamp>6063E0CD</tstamp>
+    </comp>
+    <comp ref="D301">
+      <value>LED_W</value>
+      <footprint>LED_THT:LED_D5.0mm_Horizontal_O1.27mm_Z9.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/VCF/" tstamps="/606921C9/"/>
+      <tstamp>6063EFB9</tstamp>
+    </comp>
+    <comp ref="R306">
+      <value>470</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/VCF/" tstamps="/606921C9/"/>
+      <tstamp>6067903B</tstamp>
+    </comp>
+    <comp ref="R307">
+      <value>470</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/VCF/" tstamps="/606921C9/"/>
+      <tstamp>60679D5C</tstamp>
+    </comp>
+    <comp ref="LDR301">
+      <value>100..1M</value>
+      <footprint>OptoDevice:R_LDR_5.2x5.2mm_P3.5mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_PHOTO" description="Photoresistor"/>
+      <sheetpath names="/VCF/" tstamps="/606921C9/"/>
+      <tstamp>607DADAF</tstamp>
+    </comp>
+    <comp ref="RV301">
+      <value>100k</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/VCF/" tstamps="/606921C9/"/>
+      <tstamp>606A981E</tstamp>
+    </comp>
+    <comp ref="RV302">
+      <value>100k</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/VCF/" tstamps="/606921C9/"/>
+      <tstamp>606AA8BC</tstamp>
+    </comp>
+    <comp ref="RT301">
+      <value>100k</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT_TRIM" description="Trim-potentiometer"/>
+      <sheetpath names="/VCF/" tstamps="/606921C9/"/>
+      <tstamp>606C5BF5</tstamp>
+    </comp>
+    <comp ref="R301">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/VCF/" tstamps="/606921C9/"/>
+      <tstamp>606C6A01</tstamp>
+    </comp>
+    <comp ref="RT302">
+      <value>100k</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT_TRIM" description="Trim-potentiometer"/>
+      <sheetpath names="/VCF/" tstamps="/606921C9/"/>
+      <tstamp>606F2B77</tstamp>
+    </comp>
+    <comp ref="R308">
+      <value>100</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/VCF/" tstamps="/606921C9/"/>
+      <tstamp>607420AD</tstamp>
+    </comp>
+    <comp ref="C301">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/VCF/" tstamps="/606921C9/"/>
+      <tstamp>60750D59</tstamp>
+    </comp>
+    <comp ref="C302">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/VCF/" tstamps="/606921C9/"/>
+      <tstamp>607514CA</tstamp>
+    </comp>
+    <comp ref="C303">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/VCF/" tstamps="/606921C9/"/>
+      <tstamp>60752295</tstamp>
+    </comp>
+    <comp ref="C304">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/VCF/" tstamps="/606921C9/"/>
+      <tstamp>60752665</tstamp>
+    </comp>
+    <comp ref="U402">
+      <value>NE5532</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/ne5532.pdf</datasheet>
+      <libsource lib="Amplifier_Operational" part="NE5532" description="Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"/>
+      <sheetpath names="/VCA/" tstamps="/60692334/"/>
+      <tstamp>606088C7</tstamp>
+    </comp>
+    <comp ref="U401">
+      <value>LM13700</value>
+      <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm13700.pdf</datasheet>
+      <libsource lib="Amplifier_Operational" part="LM13700" description="Dual Operational Transconductance Amplifiers with Linearizing Diodes and Buffers, DIP-16/SOIC-16"/>
+      <sheetpath names="/VCA/" tstamps="/60692334/"/>
+      <tstamp>6060C115</tstamp>
+    </comp>
+    <comp ref="R402">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/VCA/" tstamps="/60692334/"/>
+      <tstamp>6061AFB8</tstamp>
+    </comp>
+    <comp ref="R401">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/VCA/" tstamps="/60692334/"/>
+      <tstamp>6061B86C</tstamp>
+    </comp>
+    <comp ref="R405">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/VCA/" tstamps="/60692334/"/>
+      <tstamp>6061C4E9</tstamp>
+    </comp>
+    <comp ref="R406">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/VCA/" tstamps="/60692334/"/>
+      <tstamp>6061D733</tstamp>
+    </comp>
+    <comp ref="R403">
+      <value>30k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/VCA/" tstamps="/60692334/"/>
+      <tstamp>6061F052</tstamp>
+    </comp>
+    <comp ref="R404">
+      <value>20k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/VCA/" tstamps="/60692334/"/>
+      <tstamp>6061F707</tstamp>
+    </comp>
+    <comp ref="R408">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/VCA/" tstamps="/60692334/"/>
+      <tstamp>60620096</tstamp>
+    </comp>
+    <comp ref="R410">
+      <value>150</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/VCA/" tstamps="/60692334/"/>
+      <tstamp>6062092F</tstamp>
+    </comp>
+    <comp ref="RT402">
+      <value>2k</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT_TRIM" description="Trim-potentiometer"/>
+      <sheetpath names="/VCA/" tstamps="/60692334/"/>
+      <tstamp>606238C6</tstamp>
+    </comp>
+    <comp ref="R409">
+      <value>100</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/VCA/" tstamps="/60692334/"/>
+      <tstamp>60621470</tstamp>
+    </comp>
+    <comp ref="R407">
+      <value>47k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/VCA/" tstamps="/60692334/"/>
+      <tstamp>60620D70</tstamp>
+    </comp>
+    <comp ref="RT401">
+      <value>100k</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT_TRIM" description="Trim-potentiometer"/>
+      <sheetpath names="/VCA/" tstamps="/60692334/"/>
+      <tstamp>6063D4B8</tstamp>
+    </comp>
+    <comp ref="C402">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/VCA/" tstamps="/60692334/"/>
+      <tstamp>60657F8C</tstamp>
+    </comp>
+    <comp ref="C401">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/VCA/" tstamps="/60692334/"/>
+      <tstamp>60658CD1</tstamp>
+    </comp>
+    <comp ref="C403">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/VCA/" tstamps="/60692334/"/>
+      <tstamp>606596A2</tstamp>
+    </comp>
+    <comp ref="C404">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/VCA/" tstamps="/60692334/"/>
+      <tstamp>6065A2C6</tstamp>
+    </comp>
+    <comp ref="U501">
+      <value>TL074</value>
+      <footprint>Package_DIP:DIP-14_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tl071.pdf</datasheet>
+      <libsource lib="Amplifier_Operational" part="TL074" description="Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"/>
+      <sheetpath names="/VCO/" tstamps="/6069248B/"/>
+      <tstamp>60628737</tstamp>
+    </comp>
+    <comp ref="U502">
+      <value>LM358</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm2904-n.pdf</datasheet>
+      <libsource lib="Amplifier_Operational" part="LM358" description="Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"/>
+      <sheetpath names="/VCO/" tstamps="/6069248B/"/>
+      <tstamp>6062BDAE</tstamp>
+    </comp>
+    <comp ref="Q501">
+      <value>2N3904</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2N3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"/>
+      <sheetpath names="/VCO/" tstamps="/6069248B/"/>
+      <tstamp>606300EF</tstamp>
+    </comp>
+    <comp ref="Q502">
+      <value>2N3904</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2N3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"/>
+      <sheetpath names="/VCO/" tstamps="/6069248B/"/>
+      <tstamp>60630BDE</tstamp>
+    </comp>
+    <comp ref="Q503">
+      <value>2N3904</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2N3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"/>
+      <sheetpath names="/VCO/" tstamps="/6069248B/"/>
+      <tstamp>60631077</tstamp>
+    </comp>
+    <comp ref="R508">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/VCO/" tstamps="/6069248B/"/>
+      <tstamp>60638D24</tstamp>
+    </comp>
+    <comp ref="R502">
+      <value>22k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/VCO/" tstamps="/6069248B/"/>
+      <tstamp>60639437</tstamp>
+    </comp>
+    <comp ref="R503">
+      <value>1M</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/VCO/" tstamps="/6069248B/"/>
+      <tstamp>6063CA5C</tstamp>
+    </comp>
+    <comp ref="RT501">
+      <value>10k</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT_TRIM" description="Trim-potentiometer"/>
+      <sheetpath names="/VCO/" tstamps="/6069248B/"/>
+      <tstamp>6063D860</tstamp>
+    </comp>
+    <comp ref="C501">
+      <value>1n</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/VCO/" tstamps="/6069248B/"/>
+      <tstamp>606446C6</tstamp>
+    </comp>
+    <comp ref="R514">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/VCO/" tstamps="/6069248B/"/>
+      <tstamp>60647CC9</tstamp>
+    </comp>
+    <comp ref="R504">
+      <value>22k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/VCO/" tstamps="/6069248B/"/>
+      <tstamp>6065BA0D</tstamp>
+    </comp>
+    <comp ref="RT502">
+      <value>10k</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT_TRIM" description="Trim-potentiometer"/>
+      <sheetpath names="/VCO/" tstamps="/6069248B/"/>
+      <tstamp>6065CA70</tstamp>
+    </comp>
+    <comp ref="RV502">
+      <value>100k</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/VCO/" tstamps="/6069248B/"/>
+      <tstamp>60662D2F</tstamp>
+    </comp>
+    <comp ref="R505">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/VCO/" tstamps="/6069248B/"/>
+      <tstamp>6067C7C7</tstamp>
+    </comp>
+    <comp ref="R509">
+      <value>51k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/VCO/" tstamps="/6069248B/"/>
+      <tstamp>6067CF17</tstamp>
+    </comp>
+    <comp ref="R511">
+      <value>51k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/VCO/" tstamps="/6069248B/"/>
+      <tstamp>60681CEB</tstamp>
+    </comp>
+    <comp ref="R512">
+      <value>51k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/VCO/" tstamps="/6069248B/"/>
+      <tstamp>6068201B</tstamp>
+    </comp>
+    <comp ref="R510">
+      <value>51k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/VCO/" tstamps="/6069248B/"/>
+      <tstamp>6069C3E9</tstamp>
+    </comp>
+    <comp ref="R515">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/VCO/" tstamps="/6069248B/"/>
+      <tstamp>6069CCD7</tstamp>
+    </comp>
+    <comp ref="R501">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/VCO/" tstamps="/6069248B/"/>
+      <tstamp>606A41D3</tstamp>
+    </comp>
+    <comp ref="R513">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/VCO/" tstamps="/6069248B/"/>
+      <tstamp>606A4B6E</tstamp>
+    </comp>
+    <comp ref="R516">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/VCO/" tstamps="/6069248B/"/>
+      <tstamp>606AC41D</tstamp>
+    </comp>
+    <comp ref="CP501">
+      <value>47µ</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/VCO/" tstamps="/6069248B/"/>
+      <tstamp>606F42F9</tstamp>
+    </comp>
+    <comp ref="R507">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/VCO/" tstamps="/6069248B/"/>
+      <tstamp>606F4C0D</tstamp>
+    </comp>
+    <comp ref="RV501">
+      <value>100k</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/VCO/" tstamps="/6069248B/"/>
+      <tstamp>607489D7</tstamp>
+    </comp>
+    <comp ref="C502">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/VCO/" tstamps="/6069248B/"/>
+      <tstamp>60760C8C</tstamp>
+    </comp>
+    <comp ref="C504">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/VCO/" tstamps="/6069248B/"/>
+      <tstamp>607616A9</tstamp>
+    </comp>
+    <comp ref="C503">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/VCO/" tstamps="/6069248B/"/>
+      <tstamp>6076A7EC</tstamp>
+    </comp>
+    <comp ref="R506">
+      <value>100</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/VCO/" tstamps="/6069248B/"/>
+      <tstamp>60725986</tstamp>
+    </comp>
+    <comp ref="SW601">
+      <value>SW_DPDT_x2</value>
+      <footprint>Button_Switch_THT:SW_CuK_JS202011CQN_DPDT_Straight</footprint>
+      <libsource lib="Switch" part="SW_DPDT_x2" description="Switch, dual pole double throw, separate symbols"/>
+      <sheetpath names="/EG/" tstamps="/60692627/"/>
+      <tstamp>6060523E</tstamp>
+    </comp>
+    <comp ref="R602">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/EG/" tstamps="/60692627/"/>
+      <tstamp>6060627C</tstamp>
+    </comp>
+    <comp ref="C601">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/EG/" tstamps="/60692627/"/>
+      <tstamp>60606E73</tstamp>
+    </comp>
+    <comp ref="R605">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/EG/" tstamps="/60692627/"/>
+      <tstamp>60607B3D</tstamp>
+    </comp>
+    <comp ref="D602">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <sheetpath names="/EG/" tstamps="/60692627/"/>
+      <tstamp>606094AD</tstamp>
+    </comp>
+    <comp ref="R606">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/EG/" tstamps="/60692627/"/>
+      <tstamp>6060A245</tstamp>
+    </comp>
+    <comp ref="R607">
+      <value>2.2k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/EG/" tstamps="/60692627/"/>
+      <tstamp>60615D9D</tstamp>
+    </comp>
+    <comp ref="R601">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/EG/" tstamps="/60692627/"/>
+      <tstamp>606164CC</tstamp>
+    </comp>
+    <comp ref="D604">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <sheetpath names="/EG/" tstamps="/60692627/"/>
+      <tstamp>6061696E</tstamp>
+    </comp>
+    <comp ref="U601">
+      <value>TL074</value>
+      <footprint>Package_DIP:DIP-14_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tl071.pdf</datasheet>
+      <libsource lib="Amplifier_Operational" part="TL074" description="Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"/>
+      <sheetpath names="/EG/" tstamps="/60692627/"/>
+      <tstamp>6061386A</tstamp>
+    </comp>
+    <comp ref="R603">
+      <value>470</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/EG/" tstamps="/60692627/"/>
+      <tstamp>60620A7F</tstamp>
+    </comp>
+    <comp ref="D601">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <sheetpath names="/EG/" tstamps="/60692627/"/>
+      <tstamp>60620F93</tstamp>
+    </comp>
+    <comp ref="D603">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <sheetpath names="/EG/" tstamps="/60692627/"/>
+      <tstamp>60621B4A</tstamp>
+    </comp>
+    <comp ref="RV601">
+      <value>1M</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/EG/" tstamps="/60692627/"/>
+      <tstamp>60623C17</tstamp>
+    </comp>
+    <comp ref="RV602">
+      <value>1M</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/EG/" tstamps="/60692627/"/>
+      <tstamp>606249A7</tstamp>
+    </comp>
+    <comp ref="R604">
+      <value>100</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/EG/" tstamps="/60692627/"/>
+      <tstamp>60626FCC</tstamp>
+    </comp>
+    <comp ref="C602">
+      <value>1µ</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/EG/" tstamps="/60692627/"/>
+      <tstamp>6062C2E1</tstamp>
+    </comp>
+    <comp ref="SW602">
+      <value>SW_DPDT_x2</value>
+      <footprint>Button_Switch_THT:SW_CuK_JS202011CQN_DPDT_Straight</footprint>
+      <libsource lib="Switch" part="SW_DPDT_x2" description="Switch, dual pole double throw, separate symbols"/>
+      <sheetpath names="/EG/" tstamps="/60692627/"/>
+      <tstamp>606568E0</tstamp>
+    </comp>
+    <comp ref="R609">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/EG/" tstamps="/60692627/"/>
+      <tstamp>606568EC</tstamp>
+    </comp>
+    <comp ref="C605">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/EG/" tstamps="/60692627/"/>
+      <tstamp>606568F2</tstamp>
+    </comp>
+    <comp ref="R612">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/EG/" tstamps="/60692627/"/>
+      <tstamp>606568F8</tstamp>
+    </comp>
+    <comp ref="D606">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <sheetpath names="/EG/" tstamps="/60692627/"/>
+      <tstamp>606568FE</tstamp>
+    </comp>
+    <comp ref="R613">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/EG/" tstamps="/60692627/"/>
+      <tstamp>60656904</tstamp>
+    </comp>
+    <comp ref="R614">
+      <value>2.2k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/EG/" tstamps="/60692627/"/>
+      <tstamp>60656925</tstamp>
+    </comp>
+    <comp ref="R608">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/EG/" tstamps="/60692627/"/>
+      <tstamp>6065692B</tstamp>
+    </comp>
+    <comp ref="D608">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <sheetpath names="/EG/" tstamps="/60692627/"/>
+      <tstamp>60656931</tstamp>
+    </comp>
+    <comp ref="R610">
+      <value>470</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/EG/" tstamps="/60692627/"/>
+      <tstamp>6065694F</tstamp>
+    </comp>
+    <comp ref="D605">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <sheetpath names="/EG/" tstamps="/60692627/"/>
+      <tstamp>60656955</tstamp>
+    </comp>
+    <comp ref="D607">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <sheetpath names="/EG/" tstamps="/60692627/"/>
+      <tstamp>6065695B</tstamp>
+    </comp>
+    <comp ref="RV603">
+      <value>1M</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/EG/" tstamps="/60692627/"/>
+      <tstamp>60656961</tstamp>
+    </comp>
+    <comp ref="RV604">
+      <value>1M</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/EG/" tstamps="/60692627/"/>
+      <tstamp>60656967</tstamp>
+    </comp>
+    <comp ref="R611">
+      <value>100</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/EG/" tstamps="/60692627/"/>
+      <tstamp>60656973</tstamp>
+    </comp>
+    <comp ref="C606">
+      <value>1µ</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/EG/" tstamps="/60692627/"/>
+      <tstamp>6065698E</tstamp>
+    </comp>
+    <comp ref="C603">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/EG/" tstamps="/60692627/"/>
+      <tstamp>606A8926</tstamp>
+    </comp>
+    <comp ref="C604">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/EG/" tstamps="/60692627/"/>
+      <tstamp>606AD249</tstamp>
+    </comp>
+    <comp ref="U701">
+      <value>NE5532</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/ne5532.pdf</datasheet>
+      <libsource lib="Amplifier_Operational" part="NE5532" description="Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"/>
+      <sheetpath names="/XFD/" tstamps="/60696DB5/"/>
+      <tstamp>607AE988</tstamp>
+    </comp>
+    <comp ref="RV701">
+      <value>100k</value>
+      <footprint>Potentiometer_THT:Potentiometer_Alps_RK09L_Double_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT_Dual" description="Dual potentiometer"/>
+      <sheetpath names="/XFD/" tstamps="/60696DB5/"/>
+      <tstamp>607B1DA8</tstamp>
+    </comp>
+    <comp ref="R701">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/XFD/" tstamps="/60696DB5/"/>
+      <tstamp>607B6F90</tstamp>
+    </comp>
+    <comp ref="R704">
+      <value>51k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/XFD/" tstamps="/60696DB5/"/>
+      <tstamp>607B789C</tstamp>
+    </comp>
+    <comp ref="R702">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/XFD/" tstamps="/60696DB5/"/>
+      <tstamp>607B7BFB</tstamp>
+    </comp>
+    <comp ref="R705">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/XFD/" tstamps="/60696DB5/"/>
+      <tstamp>607B7FF9</tstamp>
+    </comp>
+    <comp ref="R703">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/XFD/" tstamps="/60696DB5/"/>
+      <tstamp>607B8535</tstamp>
+    </comp>
+    <comp ref="C701">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/XFD/" tstamps="/60696DB5/"/>
+      <tstamp>607CE7FD</tstamp>
+    </comp>
+    <comp ref="C702">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/XFD/" tstamps="/60696DB5/"/>
+      <tstamp>607CEC44</tstamp>
+    </comp>
+    <comp ref="R706">
+      <value>100</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/XFD/" tstamps="/60696DB5/"/>
+      <tstamp>6073B9AA</tstamp>
+    </comp>
+    <comp ref="RT701">
+      <value>100k</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT_TRIM" description="Trim-potentiometer"/>
+      <sheetpath names="/XFD/" tstamps="/60696DB5/"/>
+      <tstamp>60646321</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Amplifier_Operational" part="LM13700">
+      <aliases>
+        <alias>LM13600</alias>
+      </aliases>
+      <description>Dual Operational Transconductance Amplifiers with Linearizing Diodes and Buffers, DIP-16/SOIC-16</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm13700.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x9.9mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM13700</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="DIODE_BIAS" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="-" type="input"/>
+        <pin num="5" name="~" type="output"/>
+        <pin num="6" name="V-" type="power_in"/>
+        <pin num="7" name="~" type="input"/>
+        <pin num="8" name="~" type="output"/>
+        <pin num="9" name="~" type="output"/>
+        <pin num="10" name="~" type="input"/>
+        <pin num="11" name="V+" type="power_in"/>
+        <pin num="12" name="~" type="output"/>
+        <pin num="13" name="-" type="input"/>
+        <pin num="14" name="+" type="input"/>
+        <pin num="15" name="DIODE_BIAS" type="input"/>
+        <pin num="16" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Amplifier_Operational" part="LM2902">
+      <aliases>
+        <alias>LM324</alias>
+        <alias>TLC274</alias>
+        <alias>TLC279</alias>
+        <alias>TL074</alias>
+        <alias>LM324A</alias>
+        <alias>MCP6004</alias>
+        <alias>TL084</alias>
+        <alias>TL064</alias>
+        <alias>LMV324</alias>
+        <alias>LMC6484</alias>
+        <alias>MCP604</alias>
+        <alias>MC33079</alias>
+        <alias>MC33174</alias>
+        <alias>MC33179</alias>
+        <alias>OPA1604</alias>
+        <alias>OPA1679</alias>
+        <alias>OPA4134</alias>
+        <alias>OPA4340UA</alias>
+        <alias>OPA4376</alias>
+        <alias>MCP6L94</alias>
+        <alias>TSV914</alias>
+        <alias>ADA4807-4</alias>
+        <alias>TSV994</alias>
+      </aliases>
+      <description>Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm2902-n.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x8.7mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
+        <fp>SSOP*5.3x6.2mm*P0.65mm*</fp>
+        <fp>MSOP*3x3mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM2902</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V+" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="~" type="output"/>
+        <pin num="8" name="~" type="output"/>
+        <pin num="9" name="-" type="input"/>
+        <pin num="10" name="+" type="input"/>
+        <pin num="11" name="V-" type="power_in"/>
+        <pin num="12" name="+" type="input"/>
+        <pin num="13" name="-" type="input"/>
+        <pin num="14" name="~" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Amplifier_Operational" part="LM2904">
+      <aliases>
+        <alias>LM358</alias>
+        <alias>AD8620</alias>
+        <alias>LMC6062</alias>
+        <alias>LMC6082</alias>
+        <alias>TL062</alias>
+        <alias>TL072</alias>
+        <alias>TL082</alias>
+        <alias>NE5532</alias>
+        <alias>SA5532</alias>
+        <alias>RC4558</alias>
+        <alias>RC4560</alias>
+        <alias>RC4580</alias>
+        <alias>LMV358</alias>
+        <alias>TS912</alias>
+        <alias>TSV912IDT</alias>
+        <alias>TSV912IST</alias>
+        <alias>TLC272</alias>
+        <alias>TLC277</alias>
+        <alias>MCP602</alias>
+        <alias>OPA1678</alias>
+        <alias>OPA2134</alias>
+        <alias>OPA2340</alias>
+        <alias>OPA2376xxD</alias>
+        <alias>OPA2376xxDGK</alias>
+        <alias>MC33078</alias>
+        <alias>MC33178</alias>
+        <alias>LM4562</alias>
+        <alias>OP249</alias>
+        <alias>OP275</alias>
+        <alias>ADA4075-2</alias>
+        <alias>MCP6002-xP</alias>
+        <alias>MCP6002-xSN</alias>
+        <alias>MCP6002-xMS</alias>
+        <alias>LM7332</alias>
+        <alias>OPA2333xxD</alias>
+        <alias>OPA2333xxDGK</alias>
+        <alias>LMC6482</alias>
+        <alias>LT1492</alias>
+        <alias>LTC6081xMS8</alias>
+        <alias>LM6172</alias>
+        <alias>MCP6L92</alias>
+        <alias>NJM2043</alias>
+        <alias>NJM2114</alias>
+        <alias>NJM4556A</alias>
+        <alias>NJM4558</alias>
+        <alias>NJM4559</alias>
+        <alias>NJM4560</alias>
+        <alias>NJM4580</alias>
+        <alias>NJM5532</alias>
+        <alias>ADA4807-2ARM</alias>
+        <alias>OPA2691</alias>
+        <alias>LT6234</alias>
+        <alias>OPA2356xxD</alias>
+        <alias>OPA2356xxDGK</alias>
+        <alias>OPA1612AxD</alias>
+        <alias>MC33172</alias>
+        <alias>OPA1602</alias>
+        <alias>TLV2372</alias>
+        <alias>LT6237</alias>
+        <alias>OPA2277</alias>
+      </aliases>
+      <description>Dual Operational Amplifiers, DIP-8/SOIC-8/TSSOP-8/VSSOP-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm358.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TO*99*</fp>
+        <fp>OnSemi*Micro8*</fp>
+        <fp>TSSOP*3x3mm*P0.65mm*</fp>
+        <fp>TSSOP*4.4x3mm*P0.65mm*</fp>
+        <fp>MSOP*3x3mm*P0.65mm*</fp>
+        <fp>SSOP*3.9x4.9mm*P0.635mm*</fp>
+        <fp>LFCSP*2x2mm*P0.5mm*</fp>
+        <fp>*SIP*</fp>
+        <fp>SOIC*5.3x6.2mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM2904</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="~" type="output"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x05_Male">
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_PHOTO">
+      <description>Photoresistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*LDR*</fp>
+        <fp>R?LDR*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_PHOTO</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_POT">
+      <description>Potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_POT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_POT_Dual">
+      <description>Dual potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_POT_Dual</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_POT_TRIM">
+      <description>Trim-potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_POT_TRIM</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4148">
+      <aliases>
+        <alias>1N4448</alias>
+        <alias>1N4149</alias>
+        <alias>1N4151</alias>
+        <alias>1N914</alias>
+        <alias>BA243</alias>
+        <alias>BA244</alias>
+        <alias>BA282</alias>
+        <alias>BA283</alias>
+        <alias>BAV17</alias>
+        <alias>BAV18</alias>
+        <alias>BAV19</alias>
+        <alias>BAV20</alias>
+        <alias>BAV21</alias>
+        <alias>BAW75</alias>
+        <alias>BAW76</alias>
+        <alias>BAY93</alias>
+      </aliases>
+      <description>100V 0.15A standard switching diode, DO-35</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</docs>
+      <footprints>
+        <fp>D*DO?35*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4148</field>
+        <field name="Footprint">Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+    <libpart lib="Switch" part="SW_DPDT_x2">
+      <description>Switch, dual pole double throw, separate symbols</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SW*DPDT*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_DPDT_x2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+        <pin num="4" name="A" type="passive"/>
+        <pin num="5" name="B" type="passive"/>
+        <pin num="6" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="2N3904">
+      <description>0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92</description>
+      <docs>https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N3904</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Amplifier_Operational">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Amplifier_Operational.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Diode.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Mechanical.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Switch.lib</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Transistor_BJT.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/EG/EGB_OUT">
+      <node ref="R402" pin="2"/>
+      <node ref="R611" pin="2"/>
+    </net>
+    <net code="2" name="/XFD/OUTPUT">
+      <node ref="R706" pin="1"/>
+      <node ref="R408" pin="2"/>
+    </net>
+    <net code="3" name="/EG/TRIGGER_IN">
+      <node ref="SW601" pin="2"/>
+      <node ref="J101" pin="1"/>
+      <node ref="SW602" pin="5"/>
+    </net>
+    <net code="4" name="/VCA/VCA_OUT">
+      <node ref="R409" pin="1"/>
+      <node ref="J101" pin="2"/>
+    </net>
+    <net code="5" name="+12V">
+      <node ref="RT301" pin="1"/>
+      <node ref="C502" pin="1"/>
+      <node ref="C401" pin="1"/>
+      <node ref="R601" pin="1"/>
+      <node ref="R202" pin="1"/>
+      <node ref="C402" pin="1"/>
+      <node ref="C302" pin="1"/>
+      <node ref="U601" pin="4"/>
+      <node ref="U302" pin="8"/>
+      <node ref="C301" pin="1"/>
+      <node ref="R608" pin="1"/>
+      <node ref="C603" pin="1"/>
+      <node ref="RV502" pin="1"/>
+      <node ref="R503" pin="1"/>
+      <node ref="U501" pin="4"/>
+      <node ref="RV301" pin="1"/>
+      <node ref="U502" pin="8"/>
+      <node ref="C503" pin="1"/>
+      <node ref="U301" pin="8"/>
+      <node ref="U401" pin="11"/>
+      <node ref="C201" pin="1"/>
+      <node ref="U701" pin="8"/>
+      <node ref="U402" pin="8"/>
+      <node ref="U201" pin="8"/>
+      <node ref="R501" pin="1"/>
+      <node ref="RT401" pin="1"/>
+      <node ref="C701" pin="1"/>
+      <node ref="J101" pin="3"/>
+    </net>
+    <net code="6" name="GNDA">
+      <node ref="C604" pin="1"/>
+      <node ref="C306" pin="2"/>
+      <node ref="R410" pin="2"/>
+      <node ref="R507" pin="1"/>
+      <node ref="R513" pin="2"/>
+      <node ref="R511" pin="2"/>
+      <node ref="R614" pin="2"/>
+      <node ref="D608" pin="2"/>
+      <node ref="R310" pin="1"/>
+      <node ref="U402" pin="3"/>
+      <node ref="RV303" pin="3"/>
+      <node ref="U401" pin="4"/>
+      <node ref="C402" pin="2"/>
+      <node ref="C401" pin="2"/>
+      <node ref="C404" pin="1"/>
+      <node ref="C403" pin="1"/>
+      <node ref="R304" pin="2"/>
+      <node ref="U501" pin="12"/>
+      <node ref="U501" pin="5"/>
+      <node ref="U501" pin="3"/>
+      <node ref="R406" pin="2"/>
+      <node ref="Q503" pin="1"/>
+      <node ref="Q502" pin="2"/>
+      <node ref="U502" pin="4"/>
+      <node ref="RV501" pin="3"/>
+      <node ref="U401" pin="7"/>
+      <node ref="U401" pin="10"/>
+      <node ref="R307" pin="1"/>
+      <node ref="R306" pin="2"/>
+      <node ref="C503" pin="2"/>
+      <node ref="C504" pin="1"/>
+      <node ref="C502" pin="2"/>
+      <node ref="R607" pin="2"/>
+      <node ref="C606" pin="2"/>
+      <node ref="D604" pin="2"/>
+      <node ref="RT301" pin="3"/>
+      <node ref="R613" pin="2"/>
+      <node ref="SW602" pin="3"/>
+      <node ref="C602" pin="2"/>
+      <node ref="C202" pin="1"/>
+      <node ref="C201" pin="2"/>
+      <node ref="C702" pin="1"/>
+      <node ref="C701" pin="2"/>
+      <node ref="R606" pin="2"/>
+      <node ref="C203" pin="2"/>
+      <node ref="SW601" pin="6"/>
+      <node ref="Q202" pin="1"/>
+      <node ref="U201" pin="3"/>
+      <node ref="R206" pin="2"/>
+      <node ref="C603" pin="2"/>
+      <node ref="J101" pin="4"/>
+      <node ref="C304" pin="1"/>
+      <node ref="C303" pin="1"/>
+      <node ref="C301" pin="2"/>
+      <node ref="C302" pin="2"/>
+      <node ref="RV302" pin="3"/>
+      <node ref="RV301" pin="3"/>
+      <node ref="RV701" pin="3"/>
+      <node ref="RV701" pin="4"/>
+      <node ref="U701" pin="3"/>
+      <node ref="U701" pin="5"/>
+    </net>
+    <net code="7" name="-12V">
+      <node ref="RT401" pin="3"/>
+      <node ref="C604" pin="2"/>
+      <node ref="C202" pin="2"/>
+      <node ref="J101" pin="5"/>
+      <node ref="U402" pin="4"/>
+      <node ref="R404" pin="1"/>
+      <node ref="U401" pin="16"/>
+      <node ref="U201" pin="4"/>
+      <node ref="U701" pin="4"/>
+      <node ref="U401" pin="13"/>
+      <node ref="U401" pin="14"/>
+      <node ref="C702" pin="2"/>
+      <node ref="U401" pin="6"/>
+      <node ref="RV502" pin="3"/>
+      <node ref="U501" pin="11"/>
+      <node ref="C504" pin="2"/>
+      <node ref="C304" pin="2"/>
+      <node ref="C303" pin="2"/>
+      <node ref="U302" pin="4"/>
+      <node ref="U601" pin="11"/>
+      <node ref="U301" pin="4"/>
+      <node ref="C403" pin="2"/>
+      <node ref="C404" pin="2"/>
+    </net>
+    <net code="8" name="/Noise/NOISE_OUT">
+      <node ref="LDR301" pin="2"/>
+      <node ref="R203" pin="1"/>
+    </net>
+    <net code="9" name="/VCO/SQUARE_OUT">
+      <node ref="U502" pin="1"/>
+      <node ref="R515" pin="1"/>
+      <node ref="R516" pin="1"/>
+    </net>
+    <net code="10" name="/EG/EGA_OUT">
+      <node ref="R604" pin="2"/>
+      <node ref="RV501" pin="1"/>
+      <node ref="RV302" pin="1"/>
+    </net>
+    <net code="11" name="/XFD/SIGNAL_A">
+      <node ref="RV701" pin="1"/>
+      <node ref="R308" pin="1"/>
+    </net>
+    <net code="12" name="/XFD/SIGNAL_B">
+      <node ref="R506" pin="1"/>
+      <node ref="RV701" pin="6"/>
+    </net>
+    <net code="13" name="/VCO/CONDO_1">
+      <node ref="R512" pin="1"/>
+      <node ref="R505" pin="1"/>
+      <node ref="U502" pin="6"/>
+      <node ref="C101" pin="1"/>
+    </net>
+    <net code="14" name="/VCO/CONDO_2">
+      <node ref="CP501" pin="2"/>
+      <node ref="C101" pin="2"/>
+      <node ref="U502" pin="2"/>
+      <node ref="U502" pin="7"/>
+    </net>
+    <net code="15" name="Net-(R201-Pad2)">
+      <node ref="R201" pin="2"/>
+      <node ref="R205" pin="1"/>
+      <node ref="U201" pin="2"/>
+    </net>
+    <net code="16" name="Net-(R201-Pad1)">
+      <node ref="R201" pin="1"/>
+      <node ref="U201" pin="1"/>
+      <node ref="U201" pin="5"/>
+    </net>
+    <net code="17" name="Net-(R203-Pad2)">
+      <node ref="U201" pin="6"/>
+      <node ref="U201" pin="7"/>
+      <node ref="R203" pin="2"/>
+    </net>
+    <net code="18" name="Net-(C203-Pad1)">
+      <node ref="Q201" pin="1"/>
+      <node ref="C203" pin="1"/>
+      <node ref="R204" pin="2"/>
+    </net>
+    <net code="19" name="Net-(CP201-Pad2)">
+      <node ref="R206" pin="1"/>
+      <node ref="R205" pin="2"/>
+      <node ref="CP201" pin="2"/>
+    </net>
+    <net code="20" name="Net-(CP201-Pad1)">
+      <node ref="CP201" pin="1"/>
+      <node ref="Q202" pin="3"/>
+      <node ref="R204" pin="1"/>
+      <node ref="R202" pin="2"/>
+    </net>
+    <net code="21" name="Net-(Q201-Pad3)">
+      <node ref="Q201" pin="3"/>
+    </net>
+    <net code="22" name="Net-(Q201-Pad2)">
+      <node ref="Q202" pin="2"/>
+      <node ref="Q201" pin="2"/>
+    </net>
+    <net code="23" name="Net-(R301-Pad2)">
+      <node ref="R301" pin="2"/>
+      <node ref="RT301" pin="2"/>
+    </net>
+    <net code="24" name="Net-(R304-Pad1)">
+      <node ref="R304" pin="1"/>
+      <node ref="RT302" pin="1"/>
+    </net>
+    <net code="25" name="Net-(R302-Pad2)">
+      <node ref="RV301" pin="2"/>
+      <node ref="R302" pin="2"/>
+    </net>
+    <net code="26" name="Net-(D302-Pad1)">
+      <node ref="R307" pin="2"/>
+      <node ref="D302" pin="1"/>
+    </net>
+    <net code="27" name="Net-(D301-Pad1)">
+      <node ref="R306" pin="1"/>
+      <node ref="D301" pin="1"/>
+    </net>
+    <net code="28" name="Net-(C305-Pad1)">
+      <node ref="U301" pin="5"/>
+      <node ref="C305" pin="1"/>
+      <node ref="LDR301" pin="1"/>
+    </net>
+    <net code="29" name="Net-(R301-Pad1)">
+      <node ref="R303" pin="1"/>
+      <node ref="U301" pin="3"/>
+      <node ref="R301" pin="1"/>
+      <node ref="R302" pin="1"/>
+    </net>
+    <net code="30" name="Net-(R303-Pad2)">
+      <node ref="R303" pin="2"/>
+      <node ref="RV302" pin="2"/>
+    </net>
+    <net code="31" name="Net-(C306-Pad1)">
+      <node ref="LDR302" pin="2"/>
+      <node ref="U302" pin="3"/>
+      <node ref="C306" pin="1"/>
+    </net>
+    <net code="32" name="Net-(R308-Pad2)">
+      <node ref="U302" pin="2"/>
+      <node ref="RV303" pin="1"/>
+      <node ref="U302" pin="1"/>
+      <node ref="R308" pin="2"/>
+    </net>
+    <net code="33" name="Net-(LDR302-Pad1)">
+      <node ref="U301" pin="7"/>
+      <node ref="LDR302" pin="1"/>
+      <node ref="U301" pin="6"/>
+    </net>
+    <net code="34" name="Net-(C305-Pad2)">
+      <node ref="C305" pin="2"/>
+      <node ref="R309" pin="2"/>
+      <node ref="D304" pin="2"/>
+      <node ref="U302" pin="7"/>
+      <node ref="D303" pin="1"/>
+    </net>
+    <net code="35" name="Net-(RV303-Pad2)">
+      <node ref="U302" pin="5"/>
+      <node ref="RV303" pin="2"/>
+    </net>
+    <net code="36" name="Net-(R305-Pad2)">
+      <node ref="U301" pin="2"/>
+      <node ref="R305" pin="2"/>
+      <node ref="RT302" pin="3"/>
+      <node ref="RT302" pin="2"/>
+    </net>
+    <net code="37" name="Net-(D301-Pad2)">
+      <node ref="R305" pin="1"/>
+      <node ref="D302" pin="2"/>
+      <node ref="U301" pin="1"/>
+      <node ref="D301" pin="2"/>
+    </net>
+    <net code="38" name="Net-(D303-Pad2)">
+      <node ref="R309" pin="1"/>
+      <node ref="U302" pin="6"/>
+      <node ref="R310" pin="2"/>
+      <node ref="D303" pin="2"/>
+      <node ref="D304" pin="1"/>
+    </net>
+    <net code="39" name="Net-(R401-Pad2)">
+      <node ref="R401" pin="2"/>
+      <node ref="RT401" pin="2"/>
+    </net>
+    <net code="40" name="Net-(U401-Pad2)">
+      <node ref="U401" pin="2"/>
+    </net>
+    <net code="41" name="Net-(U401-Pad15)">
+      <node ref="U401" pin="15"/>
+    </net>
+    <net code="42" name="Net-(U401-Pad12)">
+      <node ref="U401" pin="12"/>
+    </net>
+    <net code="43" name="Net-(U401-Pad8)">
+      <node ref="U401" pin="8"/>
+    </net>
+    <net code="44" name="Net-(U401-Pad9)">
+      <node ref="U401" pin="9"/>
+    </net>
+    <net code="45" name="Net-(R410-Pad1)">
+      <node ref="RT402" pin="2"/>
+      <node ref="R410" pin="1"/>
+      <node ref="RT402" pin="3"/>
+    </net>
+    <net code="46" name="Net-(R408-Pad1)">
+      <node ref="RT402" pin="1"/>
+      <node ref="R408" pin="1"/>
+      <node ref="U401" pin="3"/>
+    </net>
+    <net code="47" name="Net-(R401-Pad1)">
+      <node ref="U402" pin="5"/>
+      <node ref="R401" pin="1"/>
+      <node ref="R402" pin="1"/>
+    </net>
+    <net code="48" name="Net-(R405-Pad2)">
+      <node ref="R405" pin="2"/>
+      <node ref="R406" pin="1"/>
+      <node ref="U402" pin="6"/>
+    </net>
+    <net code="49" name="Net-(R403-Pad1)">
+      <node ref="R404" pin="2"/>
+      <node ref="R403" pin="1"/>
+      <node ref="U401" pin="1"/>
+    </net>
+    <net code="50" name="Net-(R403-Pad2)">
+      <node ref="U402" pin="7"/>
+      <node ref="R405" pin="1"/>
+      <node ref="R403" pin="2"/>
+    </net>
+    <net code="51" name="Net-(R407-Pad1)">
+      <node ref="U402" pin="1"/>
+      <node ref="R409" pin="2"/>
+      <node ref="R407" pin="1"/>
+    </net>
+    <net code="52" name="Net-(R407-Pad2)">
+      <node ref="U402" pin="2"/>
+      <node ref="U401" pin="5"/>
+      <node ref="R407" pin="2"/>
+    </net>
+    <net code="53" name="Net-(R501-Pad2)">
+      <node ref="R510" pin="2"/>
+      <node ref="R501" pin="2"/>
+      <node ref="R513" pin="1"/>
+    </net>
+    <net code="54" name="Net-(Q503-Pad2)">
+      <node ref="R516" pin="2"/>
+      <node ref="Q503" pin="2"/>
+    </net>
+    <net code="55" name="Net-(R506-Pad2)">
+      <node ref="U501" pin="8"/>
+      <node ref="R506" pin="2"/>
+      <node ref="U501" pin="9"/>
+    </net>
+    <net code="56" name="Net-(CP501-Pad1)">
+      <node ref="CP501" pin="1"/>
+      <node ref="R507" pin="2"/>
+      <node ref="U501" pin="10"/>
+    </net>
+    <net code="57" name="Net-(Q503-Pad3)">
+      <node ref="R512" pin="2"/>
+      <node ref="Q503" pin="3"/>
+    </net>
+    <net code="58" name="Net-(R510-Pad1)">
+      <node ref="U502" pin="3"/>
+      <node ref="R515" pin="2"/>
+      <node ref="R510" pin="1"/>
+    </net>
+    <net code="59" name="Net-(R508-Pad2)">
+      <node ref="RV502" pin="2"/>
+      <node ref="R508" pin="2"/>
+    </net>
+    <net code="60" name="Net-(R502-Pad2)">
+      <node ref="R502" pin="2"/>
+      <node ref="RV501" pin="2"/>
+    </net>
+    <net code="61" name="Net-(C501-Pad2)">
+      <node ref="R514" pin="2"/>
+      <node ref="C501" pin="2"/>
+      <node ref="U501" pin="14"/>
+    </net>
+    <net code="62" name="Net-(R502-Pad1)">
+      <node ref="U501" pin="2"/>
+      <node ref="R508" pin="1"/>
+      <node ref="R502" pin="1"/>
+      <node ref="RT501" pin="1"/>
+    </net>
+    <net code="63" name="Net-(C501-Pad1)">
+      <node ref="U501" pin="13"/>
+      <node ref="C501" pin="1"/>
+      <node ref="Q501" pin="3"/>
+      <node ref="R503" pin="2"/>
+    </net>
+    <net code="64" name="Net-(Q502-Pad3)">
+      <node ref="U501" pin="6"/>
+      <node ref="Q502" pin="3"/>
+      <node ref="R504" pin="2"/>
+    </net>
+    <net code="65" name="Net-(Q501-Pad1)">
+      <node ref="R514" pin="1"/>
+      <node ref="Q501" pin="1"/>
+      <node ref="Q502" pin="1"/>
+    </net>
+    <net code="66" name="Net-(Q501-Pad2)">
+      <node ref="U501" pin="1"/>
+      <node ref="RT501" pin="2"/>
+      <node ref="RT501" pin="3"/>
+      <node ref="Q501" pin="2"/>
+    </net>
+    <net code="67" name="Net-(R509-Pad1)">
+      <node ref="R511" pin="1"/>
+      <node ref="U502" pin="5"/>
+      <node ref="R509" pin="1"/>
+    </net>
+    <net code="68" name="Net-(R505-Pad2)">
+      <node ref="R509" pin="2"/>
+      <node ref="RT502" pin="2"/>
+      <node ref="RT502" pin="3"/>
+      <node ref="R505" pin="2"/>
+      <node ref="U501" pin="7"/>
+    </net>
+    <net code="69" name="Net-(R504-Pad1)">
+      <node ref="RT502" pin="1"/>
+      <node ref="R504" pin="1"/>
+    </net>
+    <net code="70" name="Net-(D607-Pad2)">
+      <node ref="RV604" pin="1"/>
+      <node ref="D607" pin="2"/>
+    </net>
+    <net code="71" name="Net-(D605-Pad1)">
+      <node ref="RV603" pin="1"/>
+      <node ref="D605" pin="1"/>
+    </net>
+    <net code="72" name="Net-(D608-Pad1)">
+      <node ref="U601" pin="7"/>
+      <node ref="R610" pin="2"/>
+      <node ref="D608" pin="1"/>
+    </net>
+    <net code="73" name="Net-(R608-Pad2)">
+      <node ref="U601" pin="6"/>
+      <node ref="R608" pin="2"/>
+      <node ref="R614" pin="1"/>
+    </net>
+    <net code="74" name="Net-(D605-Pad2)">
+      <node ref="D607" pin="1"/>
+      <node ref="D605" pin="2"/>
+      <node ref="R610" pin="1"/>
+    </net>
+    <net code="75" name="Net-(C605-Pad1)">
+      <node ref="D606" pin="2"/>
+      <node ref="R612" pin="1"/>
+      <node ref="C605" pin="1"/>
+      <node ref="R609" pin="1"/>
+    </net>
+    <net code="76" name="Net-(R612-Pad2)">
+      <node ref="SW602" pin="2"/>
+      <node ref="R612" pin="2"/>
+    </net>
+    <net code="77" name="Net-(C605-Pad2)">
+      <node ref="C605" pin="2"/>
+      <node ref="SW602" pin="6"/>
+    </net>
+    <net code="78" name="Net-(R609-Pad2)">
+      <node ref="SW602" pin="4"/>
+      <node ref="R609" pin="2"/>
+    </net>
+    <net code="79" name="Net-(SW602-Pad1)">
+      <node ref="SW602" pin="1"/>
+    </net>
+    <net code="80" name="Net-(D606-Pad1)">
+      <node ref="U601" pin="5"/>
+      <node ref="R613" pin="1"/>
+      <node ref="D606" pin="1"/>
+    </net>
+    <net code="81" name="Net-(SW601-Pad4)">
+      <node ref="SW601" pin="4"/>
+    </net>
+    <net code="82" name="Net-(C606-Pad1)">
+      <node ref="C606" pin="1"/>
+      <node ref="RV603" pin="3"/>
+      <node ref="RV604" pin="3"/>
+      <node ref="RV604" pin="2"/>
+      <node ref="U601" pin="10"/>
+      <node ref="RV603" pin="2"/>
+    </net>
+    <net code="83" name="Net-(R611-Pad1)">
+      <node ref="R611" pin="1"/>
+      <node ref="U601" pin="8"/>
+      <node ref="U601" pin="9"/>
+    </net>
+    <net code="84" name="Net-(D604-Pad1)">
+      <node ref="U601" pin="1"/>
+      <node ref="D604" pin="1"/>
+      <node ref="R603" pin="2"/>
+    </net>
+    <net code="85" name="Net-(R601-Pad2)">
+      <node ref="R607" pin="1"/>
+      <node ref="U601" pin="2"/>
+      <node ref="R601" pin="2"/>
+    </net>
+    <net code="86" name="Net-(D601-Pad1)">
+      <node ref="RV601" pin="1"/>
+      <node ref="D601" pin="1"/>
+    </net>
+    <net code="87" name="Net-(D602-Pad1)">
+      <node ref="U601" pin="3"/>
+      <node ref="D602" pin="1"/>
+      <node ref="R606" pin="1"/>
+    </net>
+    <net code="88" name="Net-(C601-Pad2)">
+      <node ref="SW601" pin="3"/>
+      <node ref="C601" pin="2"/>
+    </net>
+    <net code="89" name="Net-(R605-Pad2)">
+      <node ref="SW601" pin="5"/>
+      <node ref="R605" pin="2"/>
+    </net>
+    <net code="90" name="Net-(R602-Pad2)">
+      <node ref="R602" pin="2"/>
+      <node ref="SW601" pin="1"/>
+    </net>
+    <net code="91" name="Net-(C601-Pad1)">
+      <node ref="R605" pin="1"/>
+      <node ref="R602" pin="1"/>
+      <node ref="D602" pin="2"/>
+      <node ref="C601" pin="1"/>
+    </net>
+    <net code="92" name="Net-(R604-Pad1)">
+      <node ref="U601" pin="13"/>
+      <node ref="U601" pin="14"/>
+      <node ref="R604" pin="1"/>
+    </net>
+    <net code="93" name="Net-(D601-Pad2)">
+      <node ref="R603" pin="1"/>
+      <node ref="D603" pin="1"/>
+      <node ref="D601" pin="2"/>
+    </net>
+    <net code="94" name="Net-(D603-Pad2)">
+      <node ref="D603" pin="2"/>
+      <node ref="RV602" pin="1"/>
+    </net>
+    <net code="95" name="Net-(C602-Pad1)">
+      <node ref="RV601" pin="3"/>
+      <node ref="RV601" pin="2"/>
+      <node ref="RV602" pin="3"/>
+      <node ref="RV602" pin="2"/>
+      <node ref="C602" pin="1"/>
+      <node ref="U601" pin="12"/>
+    </net>
+    <net code="96" name="Net-(R704-Pad2)">
+      <node ref="R704" pin="2"/>
+      <node ref="RT701" pin="3"/>
+      <node ref="RT701" pin="2"/>
+    </net>
+    <net code="97" name="Net-(RT701-Pad1)">
+      <node ref="RT701" pin="1"/>
+      <node ref="RV701" pin="5"/>
+    </net>
+    <net code="98" name="Net-(R701-Pad2)">
+      <node ref="R701" pin="2"/>
+      <node ref="RV701" pin="2"/>
+    </net>
+    <net code="99" name="Net-(R702-Pad1)">
+      <node ref="R702" pin="1"/>
+      <node ref="R705" pin="2"/>
+      <node ref="U701" pin="1"/>
+    </net>
+    <net code="100" name="Net-(R703-Pad1)">
+      <node ref="U701" pin="7"/>
+      <node ref="R703" pin="1"/>
+      <node ref="R706" pin="2"/>
+    </net>
+    <net code="101" name="Net-(R703-Pad2)">
+      <node ref="R703" pin="2"/>
+      <node ref="R705" pin="1"/>
+      <node ref="U701" pin="6"/>
+    </net>
+    <net code="102" name="Net-(R701-Pad1)">
+      <node ref="R704" pin="1"/>
+      <node ref="R701" pin="1"/>
+      <node ref="R702" pin="2"/>
+      <node ref="U701" pin="2"/>
+    </net>
+  </nets>
+</export>
