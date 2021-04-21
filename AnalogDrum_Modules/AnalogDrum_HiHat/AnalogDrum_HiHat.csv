@@ -9,7 +9,7 @@ D202 D204 D201 D203 D206 D208 D205 D207 ,8,"1N4148","Diode_THT:D_DO-35_SOD27_P7.
 D402 D401 ,2,"LED_W","LED_THT:LED_D5.0mm_Horizontal_O1.27mm_Z9.0mm","~"
 D403 D404 ,2,"LED_BLUE","LED_THT:LED_D5.0mm","~"
 H101 H102 H103 H104 ,4,"MountingHole","MountingHole:MountingHole_3.2mm_M3","~"
-J101 ,1,"Conn_01x05_Male","Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Horizontal","~"
+J101 ,1,"Conn_01x05_Male","Connector_JST:JST_EH_B5B-EH-A_1x05_P2.50mm_Vertical","~"
 LDR402 LDR401 ,2,"100..1M","OptoDevice:R_LDR_5.2x5.2mm_P3.5mm_Horizontal","~"
 Q301 Q302 ,2,"2N3904","Package_TO_SOT_THT:TO-92_Inline","https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf"
 R201 R208 R305 R409 ,4,"10k","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~"

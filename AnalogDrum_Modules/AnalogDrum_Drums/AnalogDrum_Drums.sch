@@ -73,7 +73,7 @@ F 1 "100k" V 7684 3150 50  0000 C CNN
 F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 7800 3150 50  0001 C CNN
 F 3 "~" H 7800 3150 50  0001 C CNN
 	1    7800 3150
-	0    -1   1    0   
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	6000 3500 6150 3500
@@ -128,7 +128,7 @@ U 1 1 60681370
 P 2350 3450
 F 0 "J101" H 2458 3831 50  0000 C CNN
 F 1 "Conn_01x05_Male" H 2458 3740 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Horizontal" H 2350 3450 50  0001 C CNN
+F 2 "Connector_JST:JST_EH_B5B-EH-A_1x05_P2.50mm_Vertical" H 2350 3450 50  0001 C CNN
 F 3 "~" H 2350 3450 50  0001 C CNN
 	1    2350 3450
 	1    0    0    -1  

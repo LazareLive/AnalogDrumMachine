@@ -121,7 +121,7 @@ U 1 1 6069DBE3
 P 2500 4450
 F 0 "J101" H 2608 4831 50  0000 C CNN
 F 1 "Conn_01x05_Male" H 2608 4740 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Horizontal" H 2500 4450 50  0001 C CNN
+F 2 "Connector_JST:JST_EH_B5B-EH-A_1x05_P2.50mm_Vertical" H 2500 4450 50  0001 C CNN
 F 3 "~" H 2500 4450 50  0001 C CNN
 	1    2500 4450
 	1    0    0    -1  

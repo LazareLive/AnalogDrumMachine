@@ -852,10 +852,10 @@ AR Path="/60733995/60662D2F" Ref="RV302"  Part="1"
 AR Path="/60735510/60662D2F" Ref="RV502"  Part="1" 
 F 0 "RV302" H 1531 2996 50  0000 R CNN
 F 1 "100k" H 1531 2905 50  0000 R CNN
-F 2 "3310Y:TRIM_3310Y-001-202L" H 1600 2950 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 1600 2950 50  0001 C CNN
 F 3 "~" H 1600 2950 50  0001 C CNN
 	1    1600 2950
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L power:+12V #PWR0504
@@ -1532,10 +1532,10 @@ AR Path="/60733995/607489D7" Ref="RV301"  Part="1"
 AR Path="/60735510/607489D7" Ref="RV501"  Part="1" 
 F 0 "RV301" H 1531 2096 50  0000 R CNN
 F 1 "100k" H 1531 2005 50  0000 R CNN
-F 2 "3310Y:TRIM_3310Y-001-202L" H 1600 2050 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 1600 2050 50  0001 C CNN
 F 3 "~" H 1600 2050 50  0001 C CNN
 	1    1600 2050
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L power:GNDA #PWR0503

@@ -292,7 +292,7 @@ F 1 "100k" H 6830 5155 50  0000 R CNN
 F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 6900 5200 50  0001 C CNN
 F 3 "~" H 6900 5200 50  0001 C CNN
 	1    6900 5200
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
 Connection ~ 6900 4550
 $Comp
@@ -691,7 +691,7 @@ F 1 "100k" H 2431 2055 50  0000 R CNN
 F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 2500 2100 50  0001 C CNN
 F 3 "~" H 2500 2100 50  0001 C CNN
 	1    2500 2100
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:R_POT RV?
@@ -711,7 +711,7 @@ F 1 "100k" H 2431 2755 50  0000 R CNN
 F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 2500 2800 50  0001 C CNN
 F 3 "~" H 2500 2800 50  0001 C CNN
 	1    2500 2800
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	2650 2100 2900 2100

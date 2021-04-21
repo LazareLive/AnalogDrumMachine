@@ -11,7 +11,7 @@ D202 D204 D201 D203 D206 D208 D205 D207 D601 ,9,"1N4148","Diode_THT:D_DO-35_SOD2
 D702 D701 ,2,"LED_W","LED_THT:LED_D5.0mm_Horizontal_O1.27mm_Z9.0mm","~"
 D703 D704 ,2,"LED_BLUE","LED_THT:LED_D5.0mm","~"
 H101 H102 H103 H104 ,4,"MountingHole","MountingHole:MountingHole_3.2mm_M3","~"
-J101 ,1,"Conn_01x05_Male","Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Horizontal","~"
+J101 ,1,"Conn_01x05_Male","Connector_JST:JST_EH_B5B-EH-A_1x05_P2.50mm_Vertical","~"
 LDR702 LDR701 ,2,"100..1M","OptoDevice:R_LDR_5.2x5.2mm_P3.5mm_Horizontal","~"
 Q301 Q302 Q303 Q401 Q402 ,5,"2N3904","Package_TO_SOT_THT:TO-92_Inline","https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf"
 Q601 ,1,"J112","Package_TO_SOT_THT:TO-92_Inline","~"

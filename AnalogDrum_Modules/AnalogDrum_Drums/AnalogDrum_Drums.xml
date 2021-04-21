@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:\Users\nicol\OneDrive\Documents\PCB\AnalogDrum_Modules\AnalogDrum_Drums\AnalogDrum_Drums.sch</source>
-    <date>20/04/2021 11:51:42</date>
+    <date>21/04/2021 14:34:48</date>
     <tool>Eeschema (5.1.5)-3</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -84,7 +84,7 @@
     </comp>
     <comp ref="J101">
       <value>Conn_01x05_Male</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Horizontal</footprint>
+      <footprint>Connector_JST:JST_EH_B5B-EH-A_1x05_P2.50mm_Vertical</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Connector" part="Conn_01x05_Male" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1222,7 +1222,7 @@
       <node ref="U301" pin="16"/>
       <node ref="U301" pin="6"/>
       <node ref="RT301" pin="3"/>
-      <node ref="RV402" pin="3"/>
+      <node ref="RV402" pin="1"/>
       <node ref="J101" pin="5"/>
       <node ref="U401" pin="11"/>
       <node ref="C404" pin="2"/>
@@ -1243,7 +1243,7 @@
       <node ref="C402" pin="2"/>
       <node ref="C404" pin="1"/>
       <node ref="C403" pin="2"/>
-      <node ref="RV401" pin="3"/>
+      <node ref="RV401" pin="1"/>
       <node ref="R411" pin="2"/>
       <node ref="U402" pin="4"/>
       <node ref="Q402" pin="2"/>
@@ -1276,60 +1276,60 @@
       <node ref="C203" pin="1"/>
       <node ref="R401" pin="1"/>
       <node ref="R208" pin="1"/>
-      <node ref="C403" pin="1"/>
-      <node ref="U302" pin="8"/>
       <node ref="C402" pin="1"/>
-      <node ref="U402" pin="8"/>
+      <node ref="U302" pin="8"/>
+      <node ref="C403" pin="1"/>
       <node ref="U301" pin="11"/>
-      <node ref="RV402" pin="1"/>
-      <node ref="U401" pin="4"/>
       <node ref="R403" pin="1"/>
-      <node ref="R201" pin="1"/>
+      <node ref="U401" pin="4"/>
+      <node ref="RV402" pin="3"/>
       <node ref="RT301" pin="1"/>
+      <node ref="U402" pin="8"/>
+      <node ref="R201" pin="1"/>
     </net>
     <net code="5" name="/Mono_VCA/VCA_OUT">
-      <node ref="J101" pin="2"/>
       <node ref="R309" pin="1"/>
+      <node ref="J101" pin="2"/>
     </net>
     <net code="6" name="/Envelop_Generator/TRIGGER_IN">
-      <node ref="SW201" pin="2"/>
       <node ref="J101" pin="1"/>
+      <node ref="SW201" pin="2"/>
       <node ref="SW202" pin="5"/>
     </net>
     <net code="7" name="/VCO/SQUARE_OUT">
-      <node ref="U402" pin="1"/>
       <node ref="CP101" pin="1"/>
+      <node ref="U402" pin="1"/>
       <node ref="R415" pin="1"/>
       <node ref="R416" pin="1"/>
     </net>
     <net code="8" name="/VCO/TRIANGLE_OUT">
-      <node ref="SW101" pin="3"/>
       <node ref="R406" pin="1"/>
+      <node ref="SW101" pin="3"/>
     </net>
     <net code="9" name="/VCO/CONDO_1">
+      <node ref="U402" pin="6"/>
       <node ref="R405" pin="1"/>
       <node ref="C101" pin="1"/>
       <node ref="R412" pin="1"/>
-      <node ref="U402" pin="6"/>
     </net>
-    <net code="10" name="/Mono_VCA/SIG_IN">
-      <node ref="C102" pin="1"/>
-      <node ref="RV101" pin="2"/>
+    <net code="10" name="Net-(RV101-Pad3)">
       <node ref="RV101" pin="3"/>
-      <node ref="R308" pin="2"/>
-    </net>
-    <net code="11" name="Net-(RV101-Pad1)">
-      <node ref="RV101" pin="1"/>
       <node ref="SW101" pin="2"/>
     </net>
+    <net code="11" name="/Mono_VCA/SIG_IN">
+      <node ref="C102" pin="1"/>
+      <node ref="RV101" pin="1"/>
+      <node ref="RV101" pin="2"/>
+      <node ref="R308" pin="2"/>
+    </net>
     <net code="12" name="/VCO/CONDO_2">
-      <node ref="CP401" pin="2"/>
       <node ref="C101" pin="2"/>
+      <node ref="CP401" pin="2"/>
       <node ref="U402" pin="2"/>
       <node ref="U402" pin="7"/>
     </net>
     <net code="13" name="/Envelop_Generator/EGA_OUT">
-      <node ref="RV401" pin="1"/>
+      <node ref="RV401" pin="3"/>
       <node ref="R204" pin="2"/>
     </net>
     <net code="14" name="/Envelop_Generator/EGB_OUT">
@@ -1338,10 +1338,10 @@
     </net>
     <net code="15" name="Net-(C206-Pad1)">
       <node ref="C206" pin="1"/>
-      <node ref="RV204" pin="2"/>
-      <node ref="RV203" pin="2"/>
-      <node ref="RV203" pin="3"/>
       <node ref="RV204" pin="3"/>
+      <node ref="RV204" pin="2"/>
+      <node ref="RV203" pin="3"/>
+      <node ref="RV203" pin="2"/>
       <node ref="U201" pin="10"/>
     </net>
     <net code="16" name="Net-(D207-Pad2)">

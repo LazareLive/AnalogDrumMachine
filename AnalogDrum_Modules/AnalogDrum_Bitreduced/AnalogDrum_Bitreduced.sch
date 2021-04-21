@@ -103,7 +103,7 @@ U 1 1 60724590
 P 1250 3250
 F 0 "J101" H 1358 3631 50  0000 C CNN
 F 1 "Conn_01x05_Male" H 1358 3540 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Horizontal" H 1250 3250 50  0001 C CNN
+F 2 "Connector_JST:JST_EH_B5B-EH-A_1x05_P2.50mm_Vertical" H 1250 3250 50  0001 C CNN
 F 3 "~" H 1250 3250 50  0001 C CNN
 	1    1250 3250
 	1    0    0    -1  

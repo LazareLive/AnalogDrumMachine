@@ -125,7 +125,7 @@ U 1 1 607388C5
 P 2300 4950
 F 0 "J101" H 2408 5331 50  0000 C CNN
 F 1 "Conn_01x05_Male" H 2408 5240 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Horizontal" H 2300 4950 50  0001 C CNN
+F 2 "Connector_JST:JST_EH_B5B-EH-A_1x05_P2.50mm_Vertical" H 2300 4950 50  0001 C CNN
 F 3 "~" H 2300 4950 50  0001 C CNN
 	1    2300 4950
 	1    0    0    -1  
@@ -309,7 +309,7 @@ F 1 "100k" H 8830 3755 50  0000 R CNN
 F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 8900 3800 50  0001 C CNN
 F 3 "~" H 8900 3800 50  0001 C CNN
 	1    8900 3800
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L power:GNDA #PWR0105
@@ -327,20 +327,11 @@ Wire Wire Line
 Wire Wire Line
 	8900 3550 8900 3650
 Wire Wire Line
-	8900 3950 8900 4000
-Wire Wire Line
-	8900 4000 9100 4000
-Wire Wire Line
-	9100 4000 9100 3800
-Wire Wire Line
 	9100 3800 9050 3800
-Connection ~ 8900 4000
-Wire Wire Line
-	8900 4000 8900 4050
 Wire Wire Line
 	9250 4450 9250 3550
 Wire Wire Line
-	9250 3550 8900 3550
+	9250 3550 9100 3550
 Wire Wire Line
 	7050 4450 9250 4450
 Connection ~ 8900 3550
@@ -367,4 +358,11 @@ Text Notes 550  7700 0    50   ~ 0
 Montagé réalisé par Lazare\nImprovisé sur l'idée d'Oliver_Races
 Text Notes 6100 2200 0    50   ~ 0
 Sélecteur Porteuse Carrée ou Triangulaire
+Wire Wire Line
+	8900 3950 8900 4050
+Wire Wire Line
+	9100 3800 9100 3550
+Connection ~ 9100 3550
+Wire Wire Line
+	9100 3550 8900 3550
 $EndSCHEMATC

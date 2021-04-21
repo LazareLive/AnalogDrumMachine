@@ -26,7 +26,7 @@ F 1 "100k" H 2281 2905 50  0000 R CNN
 F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 2350 2950 50  0001 C CNN
 F 3 "~" H 2350 2950 50  0001 C CNN
 	1    2350 2950
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Amplifier_Operational:NE5532 U?

@@ -116,7 +116,7 @@ U 1 1 606D4887
 P 1900 4300
 F 0 "J101" H 2008 4681 50  0000 C CNN
 F 1 "Conn_01x05_Male" H 2008 4590 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Horizontal" H 1900 4300 50  0001 C CNN
+F 2 "Connector_JST:JST_EH_B5B-EH-A_1x05_P2.50mm_Vertical" H 1900 4300 50  0001 C CNN
 F 3 "~" H 1900 4300 50  0001 C CNN
 	1    1900 4300
 	1    0    0    -1  
