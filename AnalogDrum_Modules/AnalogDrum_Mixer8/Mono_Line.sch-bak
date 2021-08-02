@@ -1,0 +1,824 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 9 9
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Amplifier_Operational:NE5532 U201
+U 1 1 61001EE9
+P 3250 3100
+AR Path="/61001DBF/61001EE9" Ref="U201"  Part="1" 
+AR Path="/61036370/61001EE9" Ref="U301"  Part="1" 
+AR Path="/61036486/61001EE9" Ref="U401"  Part="1" 
+AR Path="/61036534/61001EE9" Ref="U501"  Part="1" 
+AR Path="/6105CE97/61001EE9" Ref="U?"  Part="1" 
+AR Path="/6105CE9C/61001EE9" Ref="U?"  Part="1" 
+AR Path="/6105CEA1/61001EE9" Ref="U?"  Part="1" 
+AR Path="/6105CEA6/61001EE9" Ref="U?"  Part="1" 
+AR Path="/610671BB/61001EE9" Ref="U601"  Part="1" 
+AR Path="/610671C0/61001EE9" Ref="U701"  Part="1" 
+AR Path="/610671C5/61001EE9" Ref="U801"  Part="1" 
+AR Path="/610671CA/61001EE9" Ref="U901"  Part="1" 
+AR Path="/612A5694/61001EE9" Ref="U301"  Part="1" 
+AR Path="/612AFDA9/61001EE9" Ref="U401"  Part="1" 
+AR Path="/612B9752/61001EE9" Ref="U501"  Part="1" 
+AR Path="/612C30CF/61001EE9" Ref="U601"  Part="1" 
+AR Path="/612CC9F0/61001EE9" Ref="U701"  Part="1" 
+AR Path="/612D6329/61001EE9" Ref="U801"  Part="1" 
+AR Path="/612DFCD2/61001EE9" Ref="U901"  Part="1" 
+F 0 "U901" H 3250 3467 50  0000 C CNN
+F 1 "NE5532" H 3250 3376 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 3250 3100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ne5532.pdf" H 3250 3100 50  0001 C CNN
+	1    3250 3100
+	1    0    0    1   
+$EndComp
+$Comp
+L Amplifier_Operational:NE5532 U201
+U 2 1 61004017
+P 4750 3400
+AR Path="/61001DBF/61004017" Ref="U201"  Part="2" 
+AR Path="/61036370/61004017" Ref="U301"  Part="2" 
+AR Path="/61036486/61004017" Ref="U401"  Part="2" 
+AR Path="/61036534/61004017" Ref="U501"  Part="2" 
+AR Path="/6105CE97/61004017" Ref="U?"  Part="2" 
+AR Path="/6105CE9C/61004017" Ref="U?"  Part="2" 
+AR Path="/6105CEA1/61004017" Ref="U?"  Part="2" 
+AR Path="/6105CEA6/61004017" Ref="U?"  Part="2" 
+AR Path="/610671BB/61004017" Ref="U601"  Part="2" 
+AR Path="/610671C0/61004017" Ref="U701"  Part="2" 
+AR Path="/610671C5/61004017" Ref="U801"  Part="2" 
+AR Path="/610671CA/61004017" Ref="U901"  Part="2" 
+AR Path="/612A5694/61004017" Ref="U301"  Part="2" 
+AR Path="/612AFDA9/61004017" Ref="U401"  Part="2" 
+AR Path="/612B9752/61004017" Ref="U501"  Part="2" 
+AR Path="/612C30CF/61004017" Ref="U601"  Part="2" 
+AR Path="/612CC9F0/61004017" Ref="U701"  Part="2" 
+AR Path="/612D6329/61004017" Ref="U801"  Part="2" 
+AR Path="/612DFCD2/61004017" Ref="U901"  Part="2" 
+F 0 "U901" H 4750 3767 50  0000 C CNN
+F 1 "NE5532" H 4750 3676 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 4750 3400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ne5532.pdf" H 4750 3400 50  0001 C CNN
+	2    4750 3400
+	1    0    0    1   
+$EndComp
+$Comp
+L Amplifier_Operational:NE5532 U201
+U 3 1 61004D18
+P 5300 2000
+AR Path="/61001DBF/61004D18" Ref="U201"  Part="3" 
+AR Path="/61036370/61004D18" Ref="U301"  Part="3" 
+AR Path="/61036486/61004D18" Ref="U401"  Part="3" 
+AR Path="/61036534/61004D18" Ref="U501"  Part="3" 
+AR Path="/6105CE97/61004D18" Ref="U?"  Part="3" 
+AR Path="/6105CE9C/61004D18" Ref="U?"  Part="3" 
+AR Path="/6105CEA1/61004D18" Ref="U?"  Part="3" 
+AR Path="/6105CEA6/61004D18" Ref="U?"  Part="3" 
+AR Path="/610671BB/61004D18" Ref="U601"  Part="3" 
+AR Path="/610671C0/61004D18" Ref="U701"  Part="3" 
+AR Path="/610671C5/61004D18" Ref="U801"  Part="3" 
+AR Path="/610671CA/61004D18" Ref="U901"  Part="3" 
+AR Path="/612A5694/61004D18" Ref="U301"  Part="3" 
+AR Path="/612AFDA9/61004D18" Ref="U401"  Part="3" 
+AR Path="/612B9752/61004D18" Ref="U501"  Part="3" 
+AR Path="/612C30CF/61004D18" Ref="U601"  Part="3" 
+AR Path="/612CC9F0/61004D18" Ref="U701"  Part="3" 
+AR Path="/612D6329/61004D18" Ref="U801"  Part="3" 
+AR Path="/612DFCD2/61004D18" Ref="U901"  Part="3" 
+F 0 "U901" H 5258 2046 50  0000 L CNN
+F 1 "NE5532" H 5258 1955 50  0000 L CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 5300 2000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ne5532.pdf" H 5300 2000 50  0001 C CNN
+	3    5300 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R202
+U 1 1 61005F9B
+P 2600 3000
+AR Path="/61001DBF/61005F9B" Ref="R202"  Part="1" 
+AR Path="/61036370/61005F9B" Ref="R302"  Part="1" 
+AR Path="/61036486/61005F9B" Ref="R402"  Part="1" 
+AR Path="/61036534/61005F9B" Ref="R502"  Part="1" 
+AR Path="/6105CE97/61005F9B" Ref="R?"  Part="1" 
+AR Path="/6105CE9C/61005F9B" Ref="R?"  Part="1" 
+AR Path="/6105CEA1/61005F9B" Ref="R?"  Part="1" 
+AR Path="/6105CEA6/61005F9B" Ref="R?"  Part="1" 
+AR Path="/610671BB/61005F9B" Ref="R602"  Part="1" 
+AR Path="/610671C0/61005F9B" Ref="R702"  Part="1" 
+AR Path="/610671C5/61005F9B" Ref="R802"  Part="1" 
+AR Path="/610671CA/61005F9B" Ref="R902"  Part="1" 
+AR Path="/612A5694/61005F9B" Ref="R302"  Part="1" 
+AR Path="/612AFDA9/61005F9B" Ref="R402"  Part="1" 
+AR Path="/612B9752/61005F9B" Ref="R502"  Part="1" 
+AR Path="/612C30CF/61005F9B" Ref="R602"  Part="1" 
+AR Path="/612CC9F0/61005F9B" Ref="R702"  Part="1" 
+AR Path="/612D6329/61005F9B" Ref="R802"  Part="1" 
+AR Path="/612DFCD2/61005F9B" Ref="R902"  Part="1" 
+F 0 "R902" V 2393 3000 50  0000 C CNN
+F 1 "10k" V 2484 3000 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2530 3000 50  0001 C CNN
+F 3 "~" H 2600 3000 50  0001 C CNN
+	1    2600 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R201
+U 1 1 61007DAB
+P 3050 2600
+AR Path="/61001DBF/61007DAB" Ref="R201"  Part="1" 
+AR Path="/61036370/61007DAB" Ref="R301"  Part="1" 
+AR Path="/61036486/61007DAB" Ref="R401"  Part="1" 
+AR Path="/61036534/61007DAB" Ref="R501"  Part="1" 
+AR Path="/6105CE97/61007DAB" Ref="R?"  Part="1" 
+AR Path="/6105CE9C/61007DAB" Ref="R?"  Part="1" 
+AR Path="/6105CEA1/61007DAB" Ref="R?"  Part="1" 
+AR Path="/6105CEA6/61007DAB" Ref="R?"  Part="1" 
+AR Path="/610671BB/61007DAB" Ref="R601"  Part="1" 
+AR Path="/610671C0/61007DAB" Ref="R701"  Part="1" 
+AR Path="/610671C5/61007DAB" Ref="R801"  Part="1" 
+AR Path="/610671CA/61007DAB" Ref="R901"  Part="1" 
+AR Path="/612A5694/61007DAB" Ref="R301"  Part="1" 
+AR Path="/612AFDA9/61007DAB" Ref="R401"  Part="1" 
+AR Path="/612B9752/61007DAB" Ref="R501"  Part="1" 
+AR Path="/612C30CF/61007DAB" Ref="R601"  Part="1" 
+AR Path="/612CC9F0/61007DAB" Ref="R701"  Part="1" 
+AR Path="/612D6329/61007DAB" Ref="R801"  Part="1" 
+AR Path="/612DFCD2/61007DAB" Ref="R901"  Part="1" 
+F 0 "R901" V 2843 2600 50  0000 C CNN
+F 1 "3.3k" V 2934 2600 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2980 2600 50  0001 C CNN
+F 3 "~" H 3050 2600 50  0001 C CNN
+	1    3050 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_POT RV201
+U 1 1 6100874D
+P 3450 2600
+AR Path="/61001DBF/6100874D" Ref="RV201"  Part="1" 
+AR Path="/61036370/6100874D" Ref="RV301"  Part="1" 
+AR Path="/61036486/6100874D" Ref="RV401"  Part="1" 
+AR Path="/61036534/6100874D" Ref="RV501"  Part="1" 
+AR Path="/6105CE97/6100874D" Ref="RV?"  Part="1" 
+AR Path="/6105CE9C/6100874D" Ref="RV?"  Part="1" 
+AR Path="/6105CEA1/6100874D" Ref="RV?"  Part="1" 
+AR Path="/6105CEA6/6100874D" Ref="RV?"  Part="1" 
+AR Path="/610671BB/6100874D" Ref="RV601"  Part="1" 
+AR Path="/610671C0/6100874D" Ref="RV701"  Part="1" 
+AR Path="/610671C5/6100874D" Ref="RV801"  Part="1" 
+AR Path="/610671CA/6100874D" Ref="RV901"  Part="1" 
+AR Path="/612A5694/6100874D" Ref="RV301"  Part="1" 
+AR Path="/612AFDA9/6100874D" Ref="RV401"  Part="1" 
+AR Path="/612B9752/6100874D" Ref="RV501"  Part="1" 
+AR Path="/612C30CF/6100874D" Ref="RV601"  Part="1" 
+AR Path="/612CC9F0/6100874D" Ref="RV701"  Part="1" 
+AR Path="/612D6329/6100874D" Ref="RV801"  Part="1" 
+AR Path="/612DFCD2/6100874D" Ref="RV901"  Part="1" 
+F 0 "RV901" V 3243 2600 50  0000 C CNN
+F 1 "25k" V 3334 2600 50  0000 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 3450 2600 50  0001 C CNN
+F 3 "~" H 3450 2600 50  0001 C CNN
+	1    3450 2600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2900 2600 2850 2600
+Wire Wire Line
+	2850 2600 2850 3000
+Wire Wire Line
+	2850 3000 2750 3000
+Wire Wire Line
+	2850 3000 2950 3000
+Connection ~ 2850 3000
+Wire Wire Line
+	3200 2600 3300 2600
+Wire Wire Line
+	3600 2600 3650 2600
+Wire Wire Line
+	3650 2600 3650 2800
+Wire Wire Line
+	3650 3100 3550 3100
+Wire Wire Line
+	3450 2750 3450 2800
+Wire Wire Line
+	3450 2800 3650 2800
+Connection ~ 3650 2800
+Wire Wire Line
+	3650 2800 3650 3100
+Text HLabel 2350 3000 0    50   Input ~ 0
+MONO_IN
+Wire Wire Line
+	2450 3000 2350 3000
+$Comp
+L power:GND #PWR0204
+U 1 1 6100A790
+P 2850 3300
+AR Path="/61001DBF/6100A790" Ref="#PWR0204"  Part="1" 
+AR Path="/61036370/6100A790" Ref="#PWR0304"  Part="1" 
+AR Path="/61036486/6100A790" Ref="#PWR0404"  Part="1" 
+AR Path="/61036534/6100A790" Ref="#PWR0504"  Part="1" 
+AR Path="/6105CE97/6100A790" Ref="#PWR?"  Part="1" 
+AR Path="/6105CE9C/6100A790" Ref="#PWR?"  Part="1" 
+AR Path="/6105CEA1/6100A790" Ref="#PWR?"  Part="1" 
+AR Path="/6105CEA6/6100A790" Ref="#PWR?"  Part="1" 
+AR Path="/610671BB/6100A790" Ref="#PWR0604"  Part="1" 
+AR Path="/610671C0/6100A790" Ref="#PWR0704"  Part="1" 
+AR Path="/610671C5/6100A790" Ref="#PWR0804"  Part="1" 
+AR Path="/610671CA/6100A790" Ref="#PWR0904"  Part="1" 
+AR Path="/612A5694/6100A790" Ref="#PWR0304"  Part="1" 
+AR Path="/612AFDA9/6100A790" Ref="#PWR0404"  Part="1" 
+AR Path="/612B9752/6100A790" Ref="#PWR0504"  Part="1" 
+AR Path="/612C30CF/6100A790" Ref="#PWR0604"  Part="1" 
+AR Path="/612CC9F0/6100A790" Ref="#PWR0704"  Part="1" 
+AR Path="/612D6329/6100A790" Ref="#PWR0804"  Part="1" 
+AR Path="/612DFCD2/6100A790" Ref="#PWR0904"  Part="1" 
+F 0 "#PWR0904" H 2850 3050 50  0001 C CNN
+F 1 "GND" H 2855 3127 50  0000 C CNN
+F 2 "" H 2850 3300 50  0001 C CNN
+F 3 "" H 2850 3300 50  0001 C CNN
+	1    2850 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 3200 2850 3200
+Wire Wire Line
+	2850 3200 2850 3300
+$Comp
+L Device:C C203
+U 1 1 6100AEFF
+P 3250 2250
+AR Path="/61001DBF/6100AEFF" Ref="C203"  Part="1" 
+AR Path="/61036370/6100AEFF" Ref="C303"  Part="1" 
+AR Path="/61036486/6100AEFF" Ref="C403"  Part="1" 
+AR Path="/61036534/6100AEFF" Ref="C503"  Part="1" 
+AR Path="/6105CE97/6100AEFF" Ref="C?"  Part="1" 
+AR Path="/6105CE9C/6100AEFF" Ref="C?"  Part="1" 
+AR Path="/6105CEA1/6100AEFF" Ref="C?"  Part="1" 
+AR Path="/6105CEA6/6100AEFF" Ref="C?"  Part="1" 
+AR Path="/610671BB/6100AEFF" Ref="C603"  Part="1" 
+AR Path="/610671C0/6100AEFF" Ref="C703"  Part="1" 
+AR Path="/610671C5/6100AEFF" Ref="C803"  Part="1" 
+AR Path="/610671CA/6100AEFF" Ref="C903"  Part="1" 
+AR Path="/612A5694/6100AEFF" Ref="C303"  Part="1" 
+AR Path="/612AFDA9/6100AEFF" Ref="C403"  Part="1" 
+AR Path="/612B9752/6100AEFF" Ref="C503"  Part="1" 
+AR Path="/612C30CF/6100AEFF" Ref="C603"  Part="1" 
+AR Path="/612CC9F0/6100AEFF" Ref="C703"  Part="1" 
+AR Path="/612D6329/6100AEFF" Ref="C803"  Part="1" 
+AR Path="/612DFCD2/6100AEFF" Ref="C903"  Part="1" 
+F 0 "C903" V 2998 2250 50  0000 C CNN
+F 1 "470p" V 3089 2250 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 3288 2100 50  0001 C CNN
+F 3 "~" H 3250 2250 50  0001 C CNN
+	1    3250 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D202
+U 1 1 6100B7BC
+P 3250 1850
+AR Path="/61001DBF/6100B7BC" Ref="D202"  Part="1" 
+AR Path="/61036370/6100B7BC" Ref="D302"  Part="1" 
+AR Path="/61036486/6100B7BC" Ref="D402"  Part="1" 
+AR Path="/61036534/6100B7BC" Ref="D502"  Part="1" 
+AR Path="/6105CE97/6100B7BC" Ref="D?"  Part="1" 
+AR Path="/6105CE9C/6100B7BC" Ref="D?"  Part="1" 
+AR Path="/6105CEA1/6100B7BC" Ref="D?"  Part="1" 
+AR Path="/6105CEA6/6100B7BC" Ref="D?"  Part="1" 
+AR Path="/610671BB/6100B7BC" Ref="D602"  Part="1" 
+AR Path="/610671C0/6100B7BC" Ref="D702"  Part="1" 
+AR Path="/610671C5/6100B7BC" Ref="D802"  Part="1" 
+AR Path="/610671CA/6100B7BC" Ref="D902"  Part="1" 
+AR Path="/612A5694/6100B7BC" Ref="D302"  Part="1" 
+AR Path="/612AFDA9/6100B7BC" Ref="D402"  Part="1" 
+AR Path="/612B9752/6100B7BC" Ref="D502"  Part="1" 
+AR Path="/612C30CF/6100B7BC" Ref="D602"  Part="1" 
+AR Path="/612CC9F0/6100B7BC" Ref="D702"  Part="1" 
+AR Path="/612D6329/6100B7BC" Ref="D802"  Part="1" 
+AR Path="/612DFCD2/6100B7BC" Ref="D902"  Part="1" 
+F 0 "D902" H 3243 1595 50  0000 C CNN
+F 1 "LED White" H 3243 1686 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 3250 1850 50  0001 C CNN
+F 3 "~" H 3250 1850 50  0001 C CNN
+	1    3250 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D201
+U 1 1 6100BAE5
+P 3250 1400
+AR Path="/61001DBF/6100BAE5" Ref="D201"  Part="1" 
+AR Path="/61036370/6100BAE5" Ref="D301"  Part="1" 
+AR Path="/61036486/6100BAE5" Ref="D401"  Part="1" 
+AR Path="/61036534/6100BAE5" Ref="D501"  Part="1" 
+AR Path="/6105CE97/6100BAE5" Ref="D?"  Part="1" 
+AR Path="/6105CE9C/6100BAE5" Ref="D?"  Part="1" 
+AR Path="/6105CEA1/6100BAE5" Ref="D?"  Part="1" 
+AR Path="/6105CEA6/6100BAE5" Ref="D?"  Part="1" 
+AR Path="/610671BB/6100BAE5" Ref="D601"  Part="1" 
+AR Path="/610671C0/6100BAE5" Ref="D701"  Part="1" 
+AR Path="/610671C5/6100BAE5" Ref="D801"  Part="1" 
+AR Path="/610671CA/6100BAE5" Ref="D901"  Part="1" 
+AR Path="/612A5694/6100BAE5" Ref="D301"  Part="1" 
+AR Path="/612AFDA9/6100BAE5" Ref="D401"  Part="1" 
+AR Path="/612B9752/6100BAE5" Ref="D501"  Part="1" 
+AR Path="/612C30CF/6100BAE5" Ref="D601"  Part="1" 
+AR Path="/612CC9F0/6100BAE5" Ref="D701"  Part="1" 
+AR Path="/612D6329/6100BAE5" Ref="D801"  Part="1" 
+AR Path="/612DFCD2/6100BAE5" Ref="D901"  Part="1" 
+F 0 "D901" H 3243 1145 50  0000 C CNN
+F 1 "LED White" H 3243 1236 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 3250 1400 50  0001 C CNN
+F 3 "~" H 3250 1400 50  0001 C CNN
+	1    3250 1400
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	3100 1400 2850 1400
+Wire Wire Line
+	2850 1400 2850 1850
+Connection ~ 2850 2600
+Wire Wire Line
+	3100 2250 2850 2250
+Connection ~ 2850 2250
+Wire Wire Line
+	2850 2250 2850 2600
+Wire Wire Line
+	3100 1850 2850 1850
+Connection ~ 2850 1850
+Wire Wire Line
+	2850 1850 2850 2250
+Wire Wire Line
+	3400 2250 3650 2250
+Wire Wire Line
+	3650 2250 3650 2600
+Connection ~ 3650 2600
+Wire Wire Line
+	3400 1850 3650 1850
+Wire Wire Line
+	3650 1850 3650 2250
+Connection ~ 3650 2250
+Wire Wire Line
+	3400 1400 3650 1400
+Wire Wire Line
+	3650 1400 3650 1850
+Connection ~ 3650 1850
+$Comp
+L Device:R_POT RV202
+U 1 1 610106A1
+P 3850 3300
+AR Path="/61001DBF/610106A1" Ref="RV202"  Part="1" 
+AR Path="/61036370/610106A1" Ref="RV302"  Part="1" 
+AR Path="/61036486/610106A1" Ref="RV402"  Part="1" 
+AR Path="/61036534/610106A1" Ref="RV502"  Part="1" 
+AR Path="/6105CE97/610106A1" Ref="RV?"  Part="1" 
+AR Path="/6105CE9C/610106A1" Ref="RV?"  Part="1" 
+AR Path="/6105CEA1/610106A1" Ref="RV?"  Part="1" 
+AR Path="/6105CEA6/610106A1" Ref="RV?"  Part="1" 
+AR Path="/610671BB/610106A1" Ref="RV602"  Part="1" 
+AR Path="/610671C0/610106A1" Ref="RV702"  Part="1" 
+AR Path="/610671C5/610106A1" Ref="RV802"  Part="1" 
+AR Path="/610671CA/610106A1" Ref="RV902"  Part="1" 
+AR Path="/612A5694/610106A1" Ref="RV302"  Part="1" 
+AR Path="/612AFDA9/610106A1" Ref="RV402"  Part="1" 
+AR Path="/612B9752/610106A1" Ref="RV502"  Part="1" 
+AR Path="/612C30CF/610106A1" Ref="RV602"  Part="1" 
+AR Path="/612CC9F0/610106A1" Ref="RV702"  Part="1" 
+AR Path="/612D6329/610106A1" Ref="RV802"  Part="1" 
+AR Path="/612DFCD2/610106A1" Ref="RV902"  Part="1" 
+F 0 "RV902" H 3780 3346 50  0000 R CNN
+F 1 "100kA" H 3780 3255 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 3850 3300 50  0001 C CNN
+F 3 "~" H 3850 3300 50  0001 C CNN
+	1    3850 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 3100 3850 3100
+Wire Wire Line
+	3850 3100 3850 3150
+Connection ~ 3650 3100
+$Comp
+L power:GND #PWR0206
+U 1 1 610120FB
+P 3850 3500
+AR Path="/61001DBF/610120FB" Ref="#PWR0206"  Part="1" 
+AR Path="/61036370/610120FB" Ref="#PWR0306"  Part="1" 
+AR Path="/61036486/610120FB" Ref="#PWR0406"  Part="1" 
+AR Path="/61036534/610120FB" Ref="#PWR0506"  Part="1" 
+AR Path="/6105CE97/610120FB" Ref="#PWR?"  Part="1" 
+AR Path="/6105CE9C/610120FB" Ref="#PWR?"  Part="1" 
+AR Path="/6105CEA1/610120FB" Ref="#PWR?"  Part="1" 
+AR Path="/6105CEA6/610120FB" Ref="#PWR?"  Part="1" 
+AR Path="/610671BB/610120FB" Ref="#PWR0606"  Part="1" 
+AR Path="/610671C0/610120FB" Ref="#PWR0706"  Part="1" 
+AR Path="/610671C5/610120FB" Ref="#PWR0806"  Part="1" 
+AR Path="/610671CA/610120FB" Ref="#PWR0906"  Part="1" 
+AR Path="/612A5694/610120FB" Ref="#PWR0306"  Part="1" 
+AR Path="/612AFDA9/610120FB" Ref="#PWR0406"  Part="1" 
+AR Path="/612B9752/610120FB" Ref="#PWR0506"  Part="1" 
+AR Path="/612C30CF/610120FB" Ref="#PWR0606"  Part="1" 
+AR Path="/612CC9F0/610120FB" Ref="#PWR0706"  Part="1" 
+AR Path="/612D6329/610120FB" Ref="#PWR0806"  Part="1" 
+AR Path="/612DFCD2/610120FB" Ref="#PWR0906"  Part="1" 
+F 0 "#PWR0906" H 3850 3250 50  0001 C CNN
+F 1 "GND" H 3855 3327 50  0000 C CNN
+F 2 "" H 3850 3500 50  0001 C CNN
+F 3 "" H 3850 3500 50  0001 C CNN
+	1    3850 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 3450 3850 3500
+$Comp
+L Device:R R204
+U 1 1 61015F75
+P 4200 3300
+AR Path="/61001DBF/61015F75" Ref="R204"  Part="1" 
+AR Path="/61036370/61015F75" Ref="R304"  Part="1" 
+AR Path="/61036486/61015F75" Ref="R404"  Part="1" 
+AR Path="/61036534/61015F75" Ref="R504"  Part="1" 
+AR Path="/6105CE97/61015F75" Ref="R?"  Part="1" 
+AR Path="/6105CE9C/61015F75" Ref="R?"  Part="1" 
+AR Path="/6105CEA1/61015F75" Ref="R?"  Part="1" 
+AR Path="/6105CEA6/61015F75" Ref="R?"  Part="1" 
+AR Path="/610671BB/61015F75" Ref="R604"  Part="1" 
+AR Path="/610671C0/61015F75" Ref="R704"  Part="1" 
+AR Path="/610671C5/61015F75" Ref="R804"  Part="1" 
+AR Path="/610671CA/61015F75" Ref="R904"  Part="1" 
+AR Path="/612A5694/61015F75" Ref="R304"  Part="1" 
+AR Path="/612AFDA9/61015F75" Ref="R404"  Part="1" 
+AR Path="/612B9752/61015F75" Ref="R504"  Part="1" 
+AR Path="/612C30CF/61015F75" Ref="R604"  Part="1" 
+AR Path="/612CC9F0/61015F75" Ref="R704"  Part="1" 
+AR Path="/612D6329/61015F75" Ref="R804"  Part="1" 
+AR Path="/612DFCD2/61015F75" Ref="R904"  Part="1" 
+F 0 "R904" V 3993 3300 50  0000 C CNN
+F 1 "10k" V 4084 3300 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4130 3300 50  0001 C CNN
+F 3 "~" H 4200 3300 50  0001 C CNN
+	1    4200 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R203
+U 1 1 61017781
+P 4750 3100
+AR Path="/61001DBF/61017781" Ref="R203"  Part="1" 
+AR Path="/61036370/61017781" Ref="R303"  Part="1" 
+AR Path="/61036486/61017781" Ref="R403"  Part="1" 
+AR Path="/61036534/61017781" Ref="R503"  Part="1" 
+AR Path="/6105CE97/61017781" Ref="R?"  Part="1" 
+AR Path="/6105CE9C/61017781" Ref="R?"  Part="1" 
+AR Path="/6105CEA1/61017781" Ref="R?"  Part="1" 
+AR Path="/6105CEA6/61017781" Ref="R?"  Part="1" 
+AR Path="/610671BB/61017781" Ref="R603"  Part="1" 
+AR Path="/610671C0/61017781" Ref="R703"  Part="1" 
+AR Path="/610671C5/61017781" Ref="R803"  Part="1" 
+AR Path="/610671CA/61017781" Ref="R903"  Part="1" 
+AR Path="/612A5694/61017781" Ref="R303"  Part="1" 
+AR Path="/612AFDA9/61017781" Ref="R403"  Part="1" 
+AR Path="/612B9752/61017781" Ref="R503"  Part="1" 
+AR Path="/612C30CF/61017781" Ref="R603"  Part="1" 
+AR Path="/612CC9F0/61017781" Ref="R703"  Part="1" 
+AR Path="/612D6329/61017781" Ref="R803"  Part="1" 
+AR Path="/612DFCD2/61017781" Ref="R903"  Part="1" 
+F 0 "R903" V 4543 3100 50  0000 C CNN
+F 1 "20k" V 4634 3100 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4680 3100 50  0001 C CNN
+F 3 "~" H 4750 3100 50  0001 C CNN
+	1    4750 3100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4050 3300 4000 3300
+Wire Wire Line
+	4350 3300 4400 3300
+Wire Wire Line
+	4600 3100 4400 3100
+Wire Wire Line
+	4400 3100 4400 3300
+Connection ~ 4400 3300
+Wire Wire Line
+	4400 3300 4450 3300
+Wire Wire Line
+	4900 3100 5100 3100
+Wire Wire Line
+	5100 3100 5100 3400
+Wire Wire Line
+	5100 3400 5050 3400
+$Comp
+L power:GND #PWR0207
+U 1 1 6101A938
+P 4350 3600
+AR Path="/61001DBF/6101A938" Ref="#PWR0207"  Part="1" 
+AR Path="/61036370/6101A938" Ref="#PWR0307"  Part="1" 
+AR Path="/61036486/6101A938" Ref="#PWR0407"  Part="1" 
+AR Path="/61036534/6101A938" Ref="#PWR0507"  Part="1" 
+AR Path="/6105CE97/6101A938" Ref="#PWR?"  Part="1" 
+AR Path="/6105CE9C/6101A938" Ref="#PWR?"  Part="1" 
+AR Path="/6105CEA1/6101A938" Ref="#PWR?"  Part="1" 
+AR Path="/6105CEA6/6101A938" Ref="#PWR?"  Part="1" 
+AR Path="/610671BB/6101A938" Ref="#PWR0607"  Part="1" 
+AR Path="/610671C0/6101A938" Ref="#PWR0707"  Part="1" 
+AR Path="/610671C5/6101A938" Ref="#PWR0807"  Part="1" 
+AR Path="/610671CA/6101A938" Ref="#PWR0907"  Part="1" 
+AR Path="/612A5694/6101A938" Ref="#PWR0307"  Part="1" 
+AR Path="/612AFDA9/6101A938" Ref="#PWR0407"  Part="1" 
+AR Path="/612B9752/6101A938" Ref="#PWR0507"  Part="1" 
+AR Path="/612C30CF/6101A938" Ref="#PWR0607"  Part="1" 
+AR Path="/612CC9F0/6101A938" Ref="#PWR0707"  Part="1" 
+AR Path="/612D6329/6101A938" Ref="#PWR0807"  Part="1" 
+AR Path="/612DFCD2/6101A938" Ref="#PWR0907"  Part="1" 
+F 0 "#PWR0907" H 4350 3350 50  0001 C CNN
+F 1 "GND" H 4355 3427 50  0000 C CNN
+F 2 "" H 4350 3600 50  0001 C CNN
+F 3 "" H 4350 3600 50  0001 C CNN
+	1    4350 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 3500 4350 3500
+Wire Wire Line
+	4350 3500 4350 3600
+$Comp
+L Device:R_POT_Dual RV203
+U 1 1 6101C87A
+P 5800 3350
+AR Path="/61001DBF/6101C87A" Ref="RV203"  Part="1" 
+AR Path="/61036370/6101C87A" Ref="RV303"  Part="1" 
+AR Path="/61036486/6101C87A" Ref="RV403"  Part="1" 
+AR Path="/61036534/6101C87A" Ref="RV503"  Part="1" 
+AR Path="/6105CE97/6101C87A" Ref="RV?"  Part="1" 
+AR Path="/6105CE9C/6101C87A" Ref="RV?"  Part="1" 
+AR Path="/6105CEA1/6101C87A" Ref="RV?"  Part="1" 
+AR Path="/6105CEA6/6101C87A" Ref="RV?"  Part="1" 
+AR Path="/610671BB/6101C87A" Ref="RV603"  Part="1" 
+AR Path="/610671C0/6101C87A" Ref="RV703"  Part="1" 
+AR Path="/610671C5/6101C87A" Ref="RV803"  Part="1" 
+AR Path="/610671CA/6101C87A" Ref="RV903"  Part="1" 
+AR Path="/612A5694/6101C87A" Ref="RV303"  Part="1" 
+AR Path="/612AFDA9/6101C87A" Ref="RV403"  Part="1" 
+AR Path="/612B9752/6101C87A" Ref="RV503"  Part="1" 
+AR Path="/612C30CF/6101C87A" Ref="RV603"  Part="1" 
+AR Path="/612CC9F0/6101C87A" Ref="RV703"  Part="1" 
+AR Path="/612D6329/6101C87A" Ref="RV803"  Part="1" 
+AR Path="/612DFCD2/6101C87A" Ref="RV903"  Part="1" 
+F 0 "RV903" V 5754 3162 50  0000 R CNN
+F 1 "100k Dual" V 5845 3162 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_Alps_RK09L_Double_Vertical" H 6050 3275 50  0001 C CNN
+F 3 "~" H 6050 3275 50  0001 C CNN
+	1    5800 3350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5700 2950 5700 2900
+Wire Wire Line
+	5700 2900 5100 2900
+Wire Wire Line
+	5100 2900 5100 3100
+Connection ~ 5100 3100
+Wire Wire Line
+	5100 3400 5100 3800
+Wire Wire Line
+	5100 3800 5700 3800
+Wire Wire Line
+	5700 3800 5700 3750
+Connection ~ 5100 3400
+$Comp
+L power:GND #PWR0205
+U 1 1 61021A08
+P 6050 3400
+AR Path="/61001DBF/61021A08" Ref="#PWR0205"  Part="1" 
+AR Path="/61036370/61021A08" Ref="#PWR0305"  Part="1" 
+AR Path="/61036486/61021A08" Ref="#PWR0405"  Part="1" 
+AR Path="/61036534/61021A08" Ref="#PWR0505"  Part="1" 
+AR Path="/6105CE97/61021A08" Ref="#PWR?"  Part="1" 
+AR Path="/6105CE9C/61021A08" Ref="#PWR?"  Part="1" 
+AR Path="/6105CEA1/61021A08" Ref="#PWR?"  Part="1" 
+AR Path="/6105CEA6/61021A08" Ref="#PWR?"  Part="1" 
+AR Path="/610671BB/61021A08" Ref="#PWR0605"  Part="1" 
+AR Path="/610671C0/61021A08" Ref="#PWR0705"  Part="1" 
+AR Path="/610671C5/61021A08" Ref="#PWR0805"  Part="1" 
+AR Path="/610671CA/61021A08" Ref="#PWR0905"  Part="1" 
+AR Path="/612A5694/61021A08" Ref="#PWR0305"  Part="1" 
+AR Path="/612AFDA9/61021A08" Ref="#PWR0405"  Part="1" 
+AR Path="/612B9752/61021A08" Ref="#PWR0505"  Part="1" 
+AR Path="/612C30CF/61021A08" Ref="#PWR0605"  Part="1" 
+AR Path="/612CC9F0/61021A08" Ref="#PWR0705"  Part="1" 
+AR Path="/612D6329/61021A08" Ref="#PWR0805"  Part="1" 
+AR Path="/612DFCD2/61021A08" Ref="#PWR0905"  Part="1" 
+F 0 "#PWR0905" H 6050 3150 50  0001 C CNN
+F 1 "GND" H 6055 3227 50  0000 C CNN
+F 2 "" H 6050 3400 50  0001 C CNN
+F 3 "" H 6050 3400 50  0001 C CNN
+	1    6050 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 3250 5700 3350
+Wire Wire Line
+	5700 3350 6050 3350
+Wire Wire Line
+	6050 3350 6050 3400
+Connection ~ 5700 3350
+Wire Wire Line
+	5700 3350 5700 3450
+$Comp
+L power:+12V #PWR0201
+U 1 1 61023C40
+P 5200 1550
+AR Path="/61001DBF/61023C40" Ref="#PWR0201"  Part="1" 
+AR Path="/61036370/61023C40" Ref="#PWR0301"  Part="1" 
+AR Path="/61036486/61023C40" Ref="#PWR0401"  Part="1" 
+AR Path="/61036534/61023C40" Ref="#PWR0501"  Part="1" 
+AR Path="/6105CE97/61023C40" Ref="#PWR?"  Part="1" 
+AR Path="/6105CE9C/61023C40" Ref="#PWR?"  Part="1" 
+AR Path="/6105CEA1/61023C40" Ref="#PWR?"  Part="1" 
+AR Path="/6105CEA6/61023C40" Ref="#PWR?"  Part="1" 
+AR Path="/610671BB/61023C40" Ref="#PWR0601"  Part="1" 
+AR Path="/610671C0/61023C40" Ref="#PWR0701"  Part="1" 
+AR Path="/610671C5/61023C40" Ref="#PWR0801"  Part="1" 
+AR Path="/610671CA/61023C40" Ref="#PWR0901"  Part="1" 
+AR Path="/612A5694/61023C40" Ref="#PWR0301"  Part="1" 
+AR Path="/612AFDA9/61023C40" Ref="#PWR0401"  Part="1" 
+AR Path="/612B9752/61023C40" Ref="#PWR0501"  Part="1" 
+AR Path="/612C30CF/61023C40" Ref="#PWR0601"  Part="1" 
+AR Path="/612CC9F0/61023C40" Ref="#PWR0701"  Part="1" 
+AR Path="/612D6329/61023C40" Ref="#PWR0801"  Part="1" 
+AR Path="/612DFCD2/61023C40" Ref="#PWR0901"  Part="1" 
+F 0 "#PWR0901" H 5200 1400 50  0001 C CNN
+F 1 "+12V" H 5215 1723 50  0000 C CNN
+F 2 "" H 5200 1550 50  0001 C CNN
+F 3 "" H 5200 1550 50  0001 C CNN
+	1    5200 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-12V #PWR0203
+U 1 1 610245B0
+P 5200 2450
+AR Path="/61001DBF/610245B0" Ref="#PWR0203"  Part="1" 
+AR Path="/61036370/610245B0" Ref="#PWR0303"  Part="1" 
+AR Path="/61036486/610245B0" Ref="#PWR0403"  Part="1" 
+AR Path="/61036534/610245B0" Ref="#PWR0503"  Part="1" 
+AR Path="/6105CE97/610245B0" Ref="#PWR?"  Part="1" 
+AR Path="/6105CE9C/610245B0" Ref="#PWR?"  Part="1" 
+AR Path="/6105CEA1/610245B0" Ref="#PWR?"  Part="1" 
+AR Path="/6105CEA6/610245B0" Ref="#PWR?"  Part="1" 
+AR Path="/610671BB/610245B0" Ref="#PWR0603"  Part="1" 
+AR Path="/610671C0/610245B0" Ref="#PWR0703"  Part="1" 
+AR Path="/610671C5/610245B0" Ref="#PWR0803"  Part="1" 
+AR Path="/610671CA/610245B0" Ref="#PWR0903"  Part="1" 
+AR Path="/612A5694/610245B0" Ref="#PWR0303"  Part="1" 
+AR Path="/612AFDA9/610245B0" Ref="#PWR0403"  Part="1" 
+AR Path="/612B9752/610245B0" Ref="#PWR0503"  Part="1" 
+AR Path="/612C30CF/610245B0" Ref="#PWR0603"  Part="1" 
+AR Path="/612CC9F0/610245B0" Ref="#PWR0703"  Part="1" 
+AR Path="/612D6329/610245B0" Ref="#PWR0803"  Part="1" 
+AR Path="/612DFCD2/610245B0" Ref="#PWR0903"  Part="1" 
+F 0 "#PWR0903" H 5200 2550 50  0001 C CNN
+F 1 "-12V" H 5215 2623 50  0000 C CNN
+F 2 "" H 5200 2450 50  0001 C CNN
+F 3 "" H 5200 2450 50  0001 C CNN
+	1    5200 2450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C201
+U 1 1 610247B0
+P 5700 1800
+AR Path="/61001DBF/610247B0" Ref="C201"  Part="1" 
+AR Path="/61036370/610247B0" Ref="C301"  Part="1" 
+AR Path="/61036486/610247B0" Ref="C401"  Part="1" 
+AR Path="/61036534/610247B0" Ref="C501"  Part="1" 
+AR Path="/6105CE97/610247B0" Ref="C?"  Part="1" 
+AR Path="/6105CE9C/610247B0" Ref="C?"  Part="1" 
+AR Path="/6105CEA1/610247B0" Ref="C?"  Part="1" 
+AR Path="/6105CEA6/610247B0" Ref="C?"  Part="1" 
+AR Path="/610671BB/610247B0" Ref="C601"  Part="1" 
+AR Path="/610671C0/610247B0" Ref="C701"  Part="1" 
+AR Path="/610671C5/610247B0" Ref="C801"  Part="1" 
+AR Path="/610671CA/610247B0" Ref="C901"  Part="1" 
+AR Path="/612A5694/610247B0" Ref="C301"  Part="1" 
+AR Path="/612AFDA9/610247B0" Ref="C401"  Part="1" 
+AR Path="/612B9752/610247B0" Ref="C501"  Part="1" 
+AR Path="/612C30CF/610247B0" Ref="C601"  Part="1" 
+AR Path="/612CC9F0/610247B0" Ref="C701"  Part="1" 
+AR Path="/612D6329/610247B0" Ref="C801"  Part="1" 
+AR Path="/612DFCD2/610247B0" Ref="C901"  Part="1" 
+F 0 "C901" H 5815 1846 50  0000 L CNN
+F 1 "100n" H 5815 1755 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 5738 1650 50  0001 C CNN
+F 3 "~" H 5700 1800 50  0001 C CNN
+	1    5700 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C202
+U 1 1 61025465
+P 5700 2200
+AR Path="/61001DBF/61025465" Ref="C202"  Part="1" 
+AR Path="/61036370/61025465" Ref="C302"  Part="1" 
+AR Path="/61036486/61025465" Ref="C402"  Part="1" 
+AR Path="/61036534/61025465" Ref="C502"  Part="1" 
+AR Path="/6105CE97/61025465" Ref="C?"  Part="1" 
+AR Path="/6105CE9C/61025465" Ref="C?"  Part="1" 
+AR Path="/6105CEA1/61025465" Ref="C?"  Part="1" 
+AR Path="/6105CEA6/61025465" Ref="C?"  Part="1" 
+AR Path="/610671BB/61025465" Ref="C602"  Part="1" 
+AR Path="/610671C0/61025465" Ref="C702"  Part="1" 
+AR Path="/610671C5/61025465" Ref="C802"  Part="1" 
+AR Path="/610671CA/61025465" Ref="C902"  Part="1" 
+AR Path="/612A5694/61025465" Ref="C302"  Part="1" 
+AR Path="/612AFDA9/61025465" Ref="C402"  Part="1" 
+AR Path="/612B9752/61025465" Ref="C502"  Part="1" 
+AR Path="/612C30CF/61025465" Ref="C602"  Part="1" 
+AR Path="/612CC9F0/61025465" Ref="C702"  Part="1" 
+AR Path="/612D6329/61025465" Ref="C802"  Part="1" 
+AR Path="/612DFCD2/61025465" Ref="C902"  Part="1" 
+F 0 "C902" H 5815 2246 50  0000 L CNN
+F 1 "100n" H 5815 2155 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 5738 2050 50  0001 C CNN
+F 3 "~" H 5700 2200 50  0001 C CNN
+	1    5700 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 1550 5200 1600
+Wire Wire Line
+	5200 1600 5700 1600
+Wire Wire Line
+	5700 1600 5700 1650
+Connection ~ 5200 1600
+Wire Wire Line
+	5200 1600 5200 1700
+Wire Wire Line
+	5200 2300 5200 2400
+Wire Wire Line
+	5200 2400 5700 2400
+Wire Wire Line
+	5700 2400 5700 2350
+Connection ~ 5200 2400
+Wire Wire Line
+	5200 2400 5200 2450
+$Comp
+L power:GND #PWR0202
+U 1 1 6102B37C
+P 6050 2050
+AR Path="/61001DBF/6102B37C" Ref="#PWR0202"  Part="1" 
+AR Path="/61036370/6102B37C" Ref="#PWR0302"  Part="1" 
+AR Path="/61036486/6102B37C" Ref="#PWR0402"  Part="1" 
+AR Path="/61036534/6102B37C" Ref="#PWR0502"  Part="1" 
+AR Path="/6105CE97/6102B37C" Ref="#PWR?"  Part="1" 
+AR Path="/6105CE9C/6102B37C" Ref="#PWR?"  Part="1" 
+AR Path="/6105CEA1/6102B37C" Ref="#PWR?"  Part="1" 
+AR Path="/6105CEA6/6102B37C" Ref="#PWR?"  Part="1" 
+AR Path="/610671BB/6102B37C" Ref="#PWR0602"  Part="1" 
+AR Path="/610671C0/6102B37C" Ref="#PWR0702"  Part="1" 
+AR Path="/610671C5/6102B37C" Ref="#PWR0802"  Part="1" 
+AR Path="/610671CA/6102B37C" Ref="#PWR0902"  Part="1" 
+AR Path="/612A5694/6102B37C" Ref="#PWR0302"  Part="1" 
+AR Path="/612AFDA9/6102B37C" Ref="#PWR0402"  Part="1" 
+AR Path="/612B9752/6102B37C" Ref="#PWR0502"  Part="1" 
+AR Path="/612C30CF/6102B37C" Ref="#PWR0602"  Part="1" 
+AR Path="/612CC9F0/6102B37C" Ref="#PWR0702"  Part="1" 
+AR Path="/612D6329/6102B37C" Ref="#PWR0802"  Part="1" 
+AR Path="/612DFCD2/6102B37C" Ref="#PWR0902"  Part="1" 
+F 0 "#PWR0902" H 6050 1800 50  0001 C CNN
+F 1 "GND" H 6055 1877 50  0000 C CNN
+F 2 "" H 6050 2050 50  0001 C CNN
+F 3 "" H 6050 2050 50  0001 C CNN
+	1    6050 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 1950 5700 2000
+Wire Wire Line
+	5700 2000 6050 2000
+Wire Wire Line
+	6050 2000 6050 2050
+Connection ~ 5700 2000
+Wire Wire Line
+	5700 2000 5700 2050
+Text HLabel 6250 3100 2    50   Output ~ 0
+LEFT_OUT
+Text HLabel 6250 3600 2    50   Output ~ 0
+RIGHT_OUT
+Wire Wire Line
+	5900 3100 6250 3100
+Wire Wire Line
+	5900 3600 6250 3600
+$EndSCHEMATC
